@@ -1,0 +1,70 @@
+{
+ "rule_numeric": "round(clip(6*(z-q05_oof)/(q95_oof-q05_oof),0,6)); anchors from 250 five-repeat OOF means, frozen",
+ "rule_categorical": "tick = 1(parent relative score>0) * 1(OOF mean > train-fold mean averaged over the beer's 5 test folds)",
+ "tier_rule": "A: R2>=0.3, B: 0.1<=R2<0.3, C: R2<0.1 (5-repeat mean OOF R2)",
+ "tier_counts": {
+  "A": 15,
+  "B": 21,
+  "C": 14
+ },
+ "tier_counts_numeric": {
+  "A": 11,
+  "B": 8,
+  "C": 7
+ },
+ "tier_counts_categorical": {
+  "A": 4,
+  "B": 13,
+  "C": 7
+ },
+ "skill_nonpositive_fields": [
+  "alcohol",
+  "body"
+ ],
+ "no_discrimination_fields": [],
+ "numeric_score_distribution": {
+  "0.0": 0.1854,
+  "1.0": 0.1403,
+  "2.0": 0.1537,
+  "3.0": 0.1486,
+  "4.0": 0.1571,
+  "5.0": 0.1191,
+  "6.0": 0.0958
+ },
+ "final_tick_rate_range": [
+  0.292,
+  0.584
+ ],
+ "final_tick_rate_median": 0.442,
+ "scorecards_filled_beer": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12
+ ],
+ "template_formula_fixes": [
+  "AX2",
+  "AX3",
+  "AX4",
+  "AX5",
+  "AX6",
+  "AX7",
+  "AX8",
+  "AX9",
+  "AX10",
+  "AX11",
+  "AX12",
+  "AX13"
+ ],
+ "template_rows_left_blank": [
+  "Acetaldehyde (row 45): no corresponding target in 4.csv"
+ ]
+}
