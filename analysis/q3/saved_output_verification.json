@@ -1,0 +1,11 @@
+{
+  "saved_candidates": 900,
+  "migration_candidates": 66,
+  "observed_defect_pairs_checked": 252,
+  "missing_source_defect_pairs_not_certified": 12,
+  "floor_caps_checked": 54,
+  "portable_models_loaded": true,
+  "forward_prediction_roundtrip_verified": true,
+  "holdout_partition_verified": true,
+  "interpretation": "File/algorithm integrity checks, not proof of chemical realism or sensory safety."
+}

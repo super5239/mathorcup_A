@@ -1,0 +1,262 @@
+{
+  "status": "exploratory; fixed hyperparameters; not nested CV; no original-score validation",
+  "n": 250,
+  "p": 231,
+  "q": 50,
+  "chemical_missing": {
+    "X2.3.butanedione": 9,
+    "X3.methylbutanal": 7,
+    "ethyl.isobutyrate": 1,
+    "methylpyrazine": 12,
+    "furfural": 1,
+    "amyl.acetate": 27,
+    "phenylacetaldehyde": 1,
+    "ethyl.nicotinate": 2,
+    "aroma_hops_sum": 13
+  },
+  "chemical_missing_fraction": 0.0012640692640692641,
+  "sensory_missing": 0,
+  "styles": {
+    "Blond": 31,
+    "Tripel": 28,
+    "Strong ale": 18,
+    "Hoppy": 17,
+    "Stout/Porter": 13,
+    "Wheat": 12,
+    "Amber": 12,
+    "Brown": 12,
+    "Lambic": 11,
+    "Pils/Lager": 11,
+    "Dubbel": 10,
+    "Kriek": 10,
+    "Saison": 10,
+    "Christmas": 9,
+    "Low/No alcohol": 8,
+    "Fruitbeer": 8,
+    "West Flanders ale": 7,
+    "Brett/cofermented": 6,
+    "Scotch": 5,
+    "Flanders old brown": 5,
+    "Brut": 4,
+    "Faro": 3
+  },
+  "template_summary_columns": [
+    "Beer",
+    "A_malt_all",
+    "A_malt_grain",
+    "A_malt_bread",
+    "A_malt_cara",
+    "A_malt_burn",
+    "A_hops_all",
+    "A_hops_citrus",
+    "A_hops_tropical",
+    "A_hops_noble",
+    "A_hops_woody",
+    "A_esters_all",
+    "A_esters_ethac",
+    "A_esters_isoaa",
+    "A_esters_flower",
+    "A_ester_fruity",
+    "F_malt_all",
+    "F_malt_grain",
+    "F_malt_bread",
+    "F_malt_cara",
+    "F_malt_burn",
+    "F_hops_all",
+    "F_hops_citrus",
+    "F_hops_tropical",
+    "F_hops_noble",
+    "F_hops_woody",
+    "F_esters_all",
+    "F_esters_ethac",
+    "F_esters_isoaa",
+    "F_esters_flower",
+    "F_ester_fruity",
+    "body",
+    "bitternes",
+    "co2",
+    "aftertaste",
+    "alcohol",
+    "sweetness",
+    "acidity",
+    "dms",
+    "metallic",
+    "4vg",
+    "t2n",
+    "diacetyl",
+    "stale_hops",
+    "orange",
+    "coriander",
+    "clove",
+    "lactic",
+    "acetic",
+    "barnyard",
+    "overall",
+    "comments"
+  ],
+  "correlation2_audit": {
+    "pearson": {
+      "pairs": 22366,
+      "MAE": 0.08825764691472669,
+      "max_abs_error": 1.1234263749065518
+    },
+    "spearman": {
+      "pairs": 22366,
+      "MAE": 1.6071844927716035e-16,
+      "max_abs_error": 6.661338147750939e-16
+    }
+  },
+  "correlation5_audit": {
+    "pearson": {
+      "matched_dimensions": 49,
+      "MAE": 0.051935970846234226
+    },
+    "spearman": {
+      "matched_dimensions": 49,
+      "MAE": 1.5991067018093e-16
+    }
+  },
+  "transform_counts_by_median_only": {
+    "log10": 37,
+    "identity": 33
+  },
+  "fully_verified_transform_counts": {
+    "log10": 37,
+    "identity": 1
+  },
+  "pilot": {
+    "training_mean": {
+      "mean_oof_R2_50": -0.00842001892780357,
+      "mean_oof_R2_aroma_flavour_30": -0.008086376712817178,
+      "positive_R2_count": 0,
+      "lowest5": {
+        "dms": -0.04533834264582293,
+        "F_esters_fruity": -0.033553014751234844,
+        "X4vg": -0.02920007204429198,
+        "A_malt_burn": -0.024653959134492753,
+        "A_malt_bread": -0.02196205178062005
+      },
+      "highest5": {
+        "overall": -0.00010101720319477536,
+        "A_esters_all": -0.0003052042032023472,
+        "diacetyl": -0.00034677046272224565,
+        "A_esters_isoaa": -0.00047851874700755026,
+        "F_hops_woody": -0.0005907887443667992
+      }
+    },
+    "ridge_alpha100": {
+      "mean_oof_R2_50": -52.61740761242388,
+      "mean_oof_R2_aroma_flavour_30": -48.58940106133427,
+      "positive_R2_count": 0,
+      "lowest5": {
+        "acetic": -660.8453090522196,
+        "A_hops_woody": -256.15546892147984,
+        "A_hops_tropical": -213.09291274188317,
+        "A_esters_isoaa": -148.43627992831262,
+        "metallic": -113.44338745191763
+      },
+      "highest5": {
+        "coriander": -0.24472419705710236,
+        "F_esters_all": -0.26041661772331226,
+        "A_esters_all": -0.3223890565442282,
+        "lactic": -0.3745925578634062,
+        "F_hops_woody": -0.6993482071959272
+      }
+    },
+    "pls_8": {
+      "mean_oof_R2_50": -6.81590148417263,
+      "mean_oof_R2_aroma_flavour_30": -5.687727141252282,
+      "positive_R2_count": 4,
+      "lowest5": {
+        "acidity": -51.48971730020962,
+        "acetic": -47.43641643804389,
+        "F_malt_all": -22.055739794249522,
+        "F_malt_cara": -21.613805978031113,
+        "lactic": -19.01872662633138
+      },
+      "highest5": {
+        "body": 0.3849440605736112,
+        "orange": 0.06712255959802882,
+        "t2n": 0.019182431365950214,
+        "F_hops_woody": 0.0042355876330751885,
+        "A_esters_flower": -0.18037862632337354
+      }
+    },
+    "ridge_quantile_alpha100": {
+      "mean_oof_R2_50": -0.07127082622558151,
+      "mean_oof_R2_aroma_flavour_30": -0.12859049069479608,
+      "positive_R2_count": 18,
+      "lowest5": {
+        "A_esters_flower": -0.6816145686719475,
+        "F_esters_flower": -0.6180381169570552,
+        "A_malt_grain": -0.4741393346308098,
+        "F_esters_fruity": -0.46750309622583797,
+        "F_malt_grain": -0.45404830781027194
+      },
+      "highest5": {
+        "alcohol": 0.6127645940245008,
+        "lactic": 0.4922767422980112,
+        "acidity": 0.49000300893126336,
+        "bitternes": 0.434866108975664,
+        "body": 0.39665772865942295
+      }
+    },
+    "pls_quantile_8": {
+      "mean_oof_R2_50": 0.1647064917136552,
+      "mean_oof_R2_aroma_flavour_30": 0.12208212065184304,
+      "positive_R2_count": 44,
+      "lowest5": {
+        "A_esters_flower": -0.1517046867506746,
+        "A_esters_isoaa": -0.06251615048219494,
+        "F_esters_flower": -0.05169902102220747,
+        "F_esters_isoaa": -0.04163851462238144,
+        "stale_hops": -0.02995095744105769
+      },
+      "highest5": {
+        "alcohol": 0.6191347150962778,
+        "acidity": 0.5568996684211517,
+        "lactic": 0.5381605027680492,
+        "bitternes": 0.5282701792142557,
+        "aftertaste": 0.47340044307851514
+      }
+    },
+    "extra_trees_leaf3": {
+      "mean_oof_R2_50": 0.22410765850771866,
+      "mean_oof_R2_aroma_flavour_30": 0.19301378195475055,
+      "positive_R2_count": 48,
+      "lowest5": {
+        "A_esters_flower": -0.06219616968546138,
+        "F_esters_flower": -0.030743569072963606,
+        "dms": 0.01840276161804566,
+        "A_malt_grain": 0.024162354100140226,
+        "stale_hops": 0.028928288528292767
+      },
+      "highest5": {
+        "acidity": 0.7013192783729058,
+        "alcohol": 0.667913305338147,
+        "acetic": 0.632547761545306,
+        "lactic": 0.6281156501884344,
+        "bitternes": 0.558043847858062
+      }
+    }
+  },
+  "source_comparison": {
+    "1.csv": {
+      "source_sheet": "Supplementary File S1",
+      "nonmissing_numeric_cells": 57677,
+      "max_abs_difference": 8.881784197001252e-16,
+      "missing_masks_equal": true
+    },
+    "4.csv": {
+      "source_sheet": "Supplementary File S4",
+      "nonmissing_numeric_cells": 12500,
+      "max_abs_difference": 1.1102230246251565e-16,
+      "missing_masks_equal": true
+    }
+  },
+  "table7_all_missing_columns": [
+    "palate_acetaldehyde",
+    "palate_acetate",
+    "palate_dentist"
+  ]
+}

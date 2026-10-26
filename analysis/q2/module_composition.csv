@@ -1,0 +1,121 @@
+﻿module,size,eligible_size,origin_counts,fields
+M01,23,23,"{""Yeast"": 12, ""Malt"": 7, ""Spices"": 3, ""Others"": 1}",ethyl.isobutyrate | X2.furanmethanol | X3.methyl.2.hexanol | X3.furanmethanol | X2.acetylfuran | X2.6.dimethyl.pyrazine | X5.methylfurfural | n.heptanol | isomaltol | X2.ethyl.1.hexanol | ethyl.furoate | ortho.cresol | X2.acetylpyrrole | n.octanol | X4.methyl.1.pentanol | x.methyl.1.octanol | n.nonanol | cumin.aldehyde | ethyl.hydrocinnamate | n.dodecanol | n.tetradecanol | isopropyl.tetradecanoate | manool
+M02,17,17,"{""Hops"": 15, ""Yeast"": 2}",X1.octen.3.ol | ethyl.hex..2E..enoate | nerol.oxide | X2.undecanol | methyl.geranate | neryl.propanoate | X.E..beta.ionone | alpha.calacorene | caryophyllene.alcohol | caryophyllene.oxide | humulene.epoxide.II | alloaromadendrene.epoxide | X1.10.di.epi.cubenol | caryophylla.4.12..8.13..dien.5.alpha.ol | alpha.muurolol | selin.11.en.4.alpha.ol | tau.muurolol
+M03,16,16,"{""Yeast"": 12, ""Hops"": 4}",ethyl_decanoate | isobutyl.hexanoate | isopentyl.hexanoate | trans.dihydro.alpha.terpinyl.acetate | X2.butyloctanoate | ethyl..9..decenoate | X2.phenyl.ethyl.butyrate | X.Z..beta.farnesene | pentyl.octanoate | X2.methylbutyl.octanoate | X1.2.dihydro.8.hydroxy..2E..linalool | ethyl.tetradecanoate | ethyl.pentadecanoate | Z.Z.geranyl.linalool | ethyl.hexadecanoate | ethyl.octadecanoate
+M04,15,13,"{""Yeast"": 13, ""Others"": 1, ""unknown"": 1}",acetaldehyde | ethyl_acetate | ethyl_hexanoate | ethyl_octanoate | isoamyl_alcohol | isobutanol | isobutyl_acetate | isopentyl_acetate | phenethyl_acetate | glycerol | ethanol..v.v. | kcalperc | ethyl.butyrate | n.hexanol | esters_sum
+M05,13,13,"{""Yeast"": 5, ""Wild flora"": 3, ""Others"": 2, ""Hops"": 2, ""Spices"": 1}",ethyl_2.methyl_butyrate | ethyl_isovalerate | ethyl.hex..3E..enoate | prenyl.isobutyrate | ethyl.5.methylhexanoate | isoamyl.lactate | X4.ethyl.phenol | ethyl.benzoate | ethyl.phenylacetate | neryl.formate | X4.ethyl.guaiacol | perillyl.acetate | germacrene.D
+M06,12,11,"{""Hops"": 7, ""Spices"": 3, ""Others"": 1, ""unknown"": 1}",beta.phellandrene | X.E..beta.ocimene | terpinolene | linalool | camphor | isoborneol | terpinen.4.ol | X1.alpha.terpineol | ethyl..E..linalool | citronellol | E.ocimenone | aroma_hops_sum
+M07,5,5,"{""Hops"": 5}",E.nerolidol | dihydroisocaryophyllene.epoxide | X2.3.dihydro.farnesol | X2E.6Z.farnesal | X2Z.6E.farnesol
+M08,5,5,"{""Yeast"": 4, ""Hops"": 1}",X1.propanol | n.pentanol | X2.methyl.1.butanol | isopentyl.formate | X14.hydroxy.9.epi..E..caryophyllene
+M09,3,2,"{""Malt"": 1, ""Yeast"": 1, ""unknown"": 1}",DMS | H2S | sulfur_sum
+M10,3,3,"{""Yeast"": 1, ""Others"": 1, ""Hops"": 1}",y.methyl.1.octanol | X.E..2.nonenal | cis.dihydro.beta.terpineol
+M100,1,1,"{""Yeast"": 1}",n.decanol
+M101,1,1,"{""Yeast"": 1}",n.nonanal
+M102,1,1,"{""Hops"": 1}",neo.allo.ocimene
+M103,1,1,"{""Hops"": 1}",nerol
+M104,1,1,"{""Hops"": 1}",neryl.isobutanoate
+M105,1,1,"{""Hops"": 1}",neryl.isovalerate
+M106,1,1,"{""Hops"": 1}",nonan.2.ol
+M107,1,1,"{""Yeast"": 1}",octyl_acetate
+M108,1,0,"{""Others"": 1}",pH
+M109,1,1,"{""Yeast"": 1}",phenethyl_alcohol
+M11,2,2,"{""Spices"": 1, ""Others"": 1}",E.methyl.isoeugenol | butylated.hydroxytoluene
+M110,1,1,"{""Others"": 1}",phenylacetaldehyde
+M111,1,1,"{""Others"": 1}",propylene.glycol
+M112,1,1,"{""Spices"": 1}",spathulenol
+M113,1,1,"{""Yeast"": 1}",styrene
+M114,1,1,"{""Hops"": 1}",tau.cadinol
+M115,1,1,"{""Hops"": 1}",terpinen.4.ol.acetate
+M116,1,1,"{""Spices"": 1}",trans.dihydro.beta.terpineol
+M117,1,0,"{""Malt"": 1}",unfermentables
+M118,1,1,"{""Spices"": 1}",valencene
+M119,1,1,"{""Others"": 1}",vanillin
+M12,2,2,"{""Yeast"": 1, ""Hops"": 1}",gamma.nonalactone | X.E..beta.damascenone
+M120,1,1,"{""Yeast"": 1}",vinyl.caprylate
+M13,2,2,"{""Yeast"": 2}",X2.3.butanedione | ethyl.pentanoate
+M14,2,2,"{""Yeast"": 1, ""Internal standard solution"": 1}",propyl.acetate | X3.methyl.2.butenal
+M15,2,1,"{""Wild flora"": 1, ""unknown"": 1}",acetic_acid.g.L. | acids_sum
+M16,2,2,"{""Hops"": 2}",car.3.en.2.one | dimethoxy..E..citral
+M17,2,0,"{""Malt"": 1, ""Others"": 1}",color.EBC. | protein.g.L.
+M18,2,2,"{""Yeast"": 1, ""Others"": 1}",diethyl.succinate | ethyl.nicotinate
+M19,2,2,"{""Spices"": 1, ""Yeast"": 1}",manool.oxide | isopropyl.hexadecanoate
+M20,1,0,"{""Others"": 1}",CO2.PSI.
+M21,1,1,"{""Yeast"": 1}",CS2
+M22,1,1,"{""Yeast"": 1}",DES
+M23,1,1,"{""Hops"": 1}",E.caryophyllene
+M24,1,1,"{""Spices"": 1}",E.cinnamaldehyde
+M25,1,0,"{""Malt"": 1}",GFS
+M26,1,1,"{""Yeast"": 1}",MeSH
+M27,1,1,"{""Yeast"": 1}",SO2.mg.L.
+M28,1,1,"{""Hops"": 1}",X.E..alpha.ionone
+M29,1,1,"{""Hops"": 1}",X.E..beta.farnesene
+M30,1,1,"{""Hops"": 1}",X.E..dihydro.apofarnesal
+M31,1,1,"{""Spices"": 1}",X.E..ortho.methoxy.cinnamaldehyde
+M32,1,1,"{""Others"": 1}",X.E.E..2.4.decadienal
+M33,1,1,"{""Hops"": 1}",X.Z..dihydro.apofarnesal
+M34,1,1,"{""Spices"": 1}",X13.epi.manool.oxide
+M35,1,1,"{""Hops"": 1}",X14.hydroxy.alpha.humulene
+M36,1,1,"{""Malt"": 1}",X2.ethyl.3.methylpyrazine
+M37,1,1,"{""Others"": 1}",X2.ethylhexylsalicylate
+M38,1,1,"{""Malt"": 1}",X2.methyl.benzofuran
+M39,1,1,"{""Malt"": 1}",X2.methyltetrahydrofuran.3.one
+M40,1,1,"{""Malt"": 1}",X2.pentyl.furan
+M41,1,1,"{""Hops"": 1}",X2.undecanone
+M42,1,1,"{""Hops"": 1}",X2E.6E.methyl.farnesoate
+M43,1,1,"{""Hops"": 1}",X2Z.6E.farnesal
+M44,1,1,"{""Hops"": 1}",X2Z.6Z.farnesol
+M45,1,1,"{""Malt"": 1}",X3.methylbutanal
+M46,1,1,"{""Others"": 1}",X3.methylthio.propanol
+M47,1,1,"{""Hops"": 1}",X3Z.hexenol
+M48,1,1,"{""Hops"": 1}",X4.8.alpha.epoxy.caryophyllane
+M49,1,1,"{""Spices"": 1}",X4.methoxysalicylaldehyde
+M50,1,1,"{""Yeast"": 1}",X4VG
+M51,1,1,"{""Yeast"": 1}",X6.methyl.5.hepten.2.one
+M52,1,1,"{""Hops"": 1}",X9.epi..E..caryophyllene
+M53,1,1,"{""Hops"": 1}",Z.nerolidol
+M54,1,1,"{""Spices"": 1}",alpha.eudesmol
+M55,1,1,"{""Hops"": 1}",alpha.humulene
+M56,1,1,"{""Hops"": 1}",alpha.phellandrene
+M57,1,1,"{""Hops"": 1}",alpha.terpinyl.isobutanoate
+M58,1,1,"{""Spices"": 1}",ambroxide
+M59,1,1,"{""Malt"": 1}",ammonia.mg.L.
+M60,1,1,"{""Yeast"": 1}",amyl.acetate
+M61,1,1,"{""Yeast"": 1}",benzaldehyde
+M62,1,1,"{""Hops"": 1}",benzyl.alcohol
+M63,1,1,"{""Others"": 1}",benzyl.benzoate
+M64,1,1,"{""Hops"": 1}",beta.cyclohomocitral
+M65,1,1,"{""Hops"": 1}",beta.humulene
+M66,1,0,"{""Malt"": 1}",betaglucan.mg.L.
+M67,1,0,"{""Hops"": 1}",bitterness
+M68,1,1,"{""Yeast"": 1}",butyl.acetate
+M69,1,1,"{""Hops"": 1}",cadalene
+M70,1,1,"{""Hops"": 1}",caryophyllene.acetate
+M71,1,1,"{""Hops"": 1}",cis.beta.terpineol
+M72,1,1,"{""Hops"": 1}",cis.linalool.oxide
+M73,1,1,"{""Hops"": 1}",dehydroxy.cis.linalool.oxide
+M74,1,1,"{""Hops"": 1}",delta.terpinyl.acetate
+M75,1,1,"{""Spices"": 1}",dodecanal
+M76,1,1,"{""Others"": 1}",ethyl..E..cinnamate
+M77,1,1,"{""Others"": 1}",ethyl.lactate
+M78,1,1,"{""Yeast"": 1}",ethyl.tiglate
+M79,1,1,"{""Yeast"": 1}",ethyl_propionate
+M80,1,1,"{""Hops"": 1}",eucalyptol
+M81,1,1,"{""Spices"": 1}",eugenol
+M82,1,1,"{""Spices"": 1}",foeniculin
+M83,1,1,"{""Malt"": 1}",furfural
+M84,1,1,"{""Spices"": 1}",gamma.eudesmol
+M85,1,1,"{""Wild flora"": 1}",geosmin
+M86,1,1,"{""Hops"": 1}",geraniol
+M87,1,1,"{""Yeast"": 1}",heptyl.acetate
+M88,1,1,"{""Yeast"": 1}",hexyl.acetate
+M89,1,1,"{""Malt"": 1}",hydroxy.methyl.furfural
+M90,1,0,"{""Others"": 1}",iron
+M91,1,1,"{""Yeast"": 1}",isopentyl.butanoate
+M92,1,1,"{""Yeast"": 1}",isopropyl.laurate
+M93,1,1,"{""Wild flora"": 1}",lactic_acid.mg.L.
+M94,1,1,"{""Hops"": 1}",limonene
+M95,1,1,"{""Hops"": 1}",linalool.isovalerate
+M96,1,1,"{""Hops"": 1}",meta.cymenene
+M97,1,1,"{""Yeast"": 1}",methyl.hexadecanoate
+M98,1,1,"{""Spices"": 1}",methyl.para.anisate
+M99,1,1,"{""Malt"": 1}",methylpyrazine

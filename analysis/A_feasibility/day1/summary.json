@@ -1,0 +1,80 @@
+{
+  "PLS_quantile8__natural_missing": {
+    "all": {
+      "n_dimensions": 50,
+      "mean_oof_R2": 0.1647064917136552,
+      "mean_oof_MAE_standardized": 0.3700764099559474
+    },
+    "numeric": {
+      "n_dimensions": 26,
+      "mean_oof_R2": 0.23631023399238218,
+      "mean_oof_MAE_standardized": 0.37703491210956336
+    },
+    "categorical": {
+      "n_dimensions": 24,
+      "mean_oof_R2": 0.08713577091170098,
+      "mean_oof_MAE_standardized": 0.3625380326228633
+    }
+  },
+  "PLS_quantile8__extra_10pct_mask": {
+    "all": {
+      "n_dimensions": 50,
+      "mean_oof_R2": 0.1647062902470115,
+      "mean_oof_MAE_standardized": 0.3699562401197397
+    },
+    "numeric": {
+      "n_dimensions": 26,
+      "mean_oof_R2": 0.23264168729546653,
+      "mean_oof_MAE_standardized": 0.37763649660914217
+    },
+    "categorical": {
+      "n_dimensions": 24,
+      "mean_oof_R2": 0.09110961011118524,
+      "mean_oof_MAE_standardized": 0.36163596225622047
+    }
+  },
+  "ExtraTrees_leaf3__natural_missing": {
+    "all": {
+      "n_dimensions": 50,
+      "mean_oof_R2": 0.22410765850771866,
+      "mean_oof_MAE_standardized": 0.345122377291356
+    },
+    "numeric": {
+      "n_dimensions": 26,
+      "mean_oof_R2": 0.2913420423678546,
+      "mean_oof_MAE_standardized": 0.348654656808133
+    },
+    "categorical": {
+      "n_dimensions": 24,
+      "mean_oof_R2": 0.15127040932590474,
+      "mean_oof_MAE_standardized": 0.3412957411481808
+    }
+  },
+  "ExtraTrees_leaf3__extra_10pct_mask": {
+    "all": {
+      "n_dimensions": 50,
+      "mean_oof_R2": 0.20724438592527797,
+      "mean_oof_MAE_standardized": 0.3498739479759819
+    },
+    "numeric": {
+      "n_dimensions": 26,
+      "mean_oof_R2": 0.2706520421311864,
+      "mean_oof_MAE_standardized": 0.3545007644659346
+    },
+    "categorical": {
+      "n_dimensions": 24,
+      "mean_oof_R2": 0.13855275836887718,
+      "mean_oof_MAE_standardized": 0.3448615634451999
+    }
+  },
+  "type_counts": {
+    "numeric": 26,
+    "categorical": 24
+  },
+  "protocol": "fixed parameters; 3-fold style-stratified OOF; train-fold-only imputation and quantile transform; no nested tuning",
+  "score_rule": "DRAFT: numeric q05->0, q95->6 linear clipped and rounded; categorical standardized prediction>0; not original ratings or validated binary labels",
+  "n_rows": 250,
+  "n_features": 231,
+  "n_targets": 50,
+  "template_display_rule": "categorical displayed score = draft checkbox * parent numeric strength, following template formulas; checkbox is stored separately"
+}

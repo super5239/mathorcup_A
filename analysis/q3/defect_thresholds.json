@@ -1,0 +1,84 @@
+{
+  "analysis_date": "2026-10-25",
+  "canonical_unit": "mg/L",
+  "measured_defects": {
+    "DMS": {
+      "field": "DMS",
+      "declared_raw_unit": "ug/L",
+      "threshold_mg_L": 0.019,
+      "sensitivity_thresholds_mg_L": [
+        0.01725,
+        0.019
+      ],
+      "threshold_source": "8.xlsx Sensory thresholds; median main, mean alternative",
+      "table1_mapping": "log10(raw value in declared raw unit)",
+      "qualification": "conditional on calibration and detection processing"
+    },
+    "Diacetyl": {
+      "field": "X2.3.butanedione",
+      "declared_raw_unit": "mg/L",
+      "threshold_mg_L": 0.09,
+      "sensitivity_thresholds_mg_L": [
+        0.09,
+        0.29925
+      ],
+      "threshold_source": "8.xlsx Sensory thresholds; median main, mean alternative",
+      "table1_mapping": "mostly identity, exceptional rows require review",
+      "qualification": "conditional on calibration and detection processing"
+    },
+    "4VG": {
+      "field": "X4VG",
+      "declared_raw_unit": "mg/L",
+      "threshold_mg_L": 0.2,
+      "sensitivity_thresholds_mg_L": [
+        0.2,
+        0.206333333
+      ],
+      "threshold_source": "8.xlsx Sensory thresholds; median main, mean alternative",
+      "table1_mapping": "log10(raw value in declared raw unit)",
+      "qualification": "conditional on calibration and detection processing"
+    },
+    "t2n": {
+      "field": "X.E..2.nonenal",
+      "declared_raw_unit": "mg/L",
+      "threshold_mg_L": 0.0001,
+      "sensitivity_thresholds_mg_L": [
+        3e-05,
+        0.0001
+      ],
+      "threshold_source": "Santos et al. 2003 reference 0.1 ug/L; Saison et al. 2009 Table 2 sensitivity 0.03 ppb",
+      "table1_mapping": "mostly identity, exceptional rows require review",
+      "qualification": "t2n absolute scale flagged by near-universal exceedance"
+    }
+  },
+  "recommended_primary_transfer_rule": "concentration_nonincrease_on_same_measurement_scale",
+  "also_report": [
+    "excess_nonworsening",
+    "below_threshold"
+  ],
+  "Stale_hops": {
+    "measured_chemical": "absent",
+    "candidate_external_marker": "isovaleric acid / 3-methylbutanoic acid",
+    "not_equivalent_to": "ethyl_isovalerate / ethyl 3-methylbutyrate",
+    "status": "not_chemically_verifiable; weak sensory proxy only"
+  },
+  "sources": [
+    {
+      "id": "Santos2003",
+      "doi": "10.1016/S0021-9673(02)01396-1",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12580508/"
+    },
+    {
+      "id": "Saison2009",
+      "doi": "10.1016/j.foodchem.2008.10.078",
+      "url": "https://www.agraria.com.br/extranet_2016/uploads/AgromalteArquivo/contribution_of_staling_compounds_to_the_aged_flavour_1601494914447.pdf",
+      "locator": "Table 2, journal p.1209; thresholds are indicative"
+    },
+    {
+      "id": "BrewersAssociation2025",
+      "url": "https://cdn.brewersassociation.org/wp-content/uploads/2025/07/14095250/BAtech25-Off-Flavor-Isovaleric-201.pdf",
+      "locator": "p.1; isovaleric acid, hop degradation and matrix-dependent thresholds"
+    }
+  ],
+  "important": "No automatic 1000x rescaling; no missing-as-zero; no all-five sensory guarantee."
+}

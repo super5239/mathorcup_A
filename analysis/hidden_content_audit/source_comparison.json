@@ -1,0 +1,108 @@
+{
+  "numeric_comparison": [
+    {
+      "file": "1.csv",
+      "compared_numeric_cells": 57677,
+      "max_abs_difference": 8.881784197001252e-16,
+      "missing_mask_equal": true,
+      "note": "Identifier columns excluded; beer_id is rounded in CSV4/7."
+    },
+    {
+      "file": "2.csv",
+      "compared_numeric_cells": 53361,
+      "max_abs_difference": 9.90960785651751e-17,
+      "missing_mask_equal": true,
+      "note": ""
+    },
+    {
+      "file": "4.csv",
+      "compared_numeric_cells": 12500,
+      "max_abs_difference": 1.1102230246251565e-16,
+      "missing_mask_equal": true,
+      "note": "Identifier columns excluded; beer_id is rounded in CSV4/7."
+    },
+    {
+      "file": "5.csv",
+      "compared_numeric_cells": 2500,
+      "max_abs_difference": 9.020562075079397e-17,
+      "missing_mask_equal": true,
+      "note": "Reference S5 has an empty row from a split final label; removed only for comparison."
+    },
+    {
+      "file": "6.csv",
+      "compared_numeric_cells": 2200,
+      "max_abs_difference": 9.096456227153382e-17,
+      "missing_mask_equal": true,
+      "note": ""
+    },
+    {
+      "file": "7.csv",
+      "compared_numeric_cells": 45750,
+      "max_abs_difference": 8.881784197001252e-16,
+      "missing_mask_equal": true,
+      "note": "Identifier columns excluded; beer_id is rounded in CSV4/7."
+    }
+  ],
+  "original_archive_A_members": [
+    {
+      "name": "附件/1.csv",
+      "comment_bytes": 0,
+      "local_candidates": 1,
+      "matches_local": true
+    },
+    {
+      "name": "附件/2.csv",
+      "comment_bytes": 0,
+      "local_candidates": 1,
+      "matches_local": true
+    },
+    {
+      "name": "附件/3.xlsx",
+      "comment_bytes": 0,
+      "local_candidates": 1,
+      "matches_local": true
+    },
+    {
+      "name": "附件/4.csv",
+      "comment_bytes": 0,
+      "local_candidates": 1,
+      "matches_local": true
+    },
+    {
+      "name": "附件/5.csv",
+      "comment_bytes": 0,
+      "local_candidates": 1,
+      "matches_local": true
+    },
+    {
+      "name": "附件/6.csv",
+      "comment_bytes": 0,
+      "local_candidates": 1,
+      "matches_local": true
+    },
+    {
+      "name": "附件/7.csv",
+      "comment_bytes": 0,
+      "local_candidates": 1,
+      "matches_local": true
+    },
+    {
+      "name": "附件/8.xlsx",
+      "comment_bytes": 0,
+      "local_candidates": 1,
+      "matches_local": true
+    },
+    {
+      "name": "附件/数据说明.txt",
+      "comment_bytes": 0,
+      "local_candidates": 1,
+      "matches_local": true
+    },
+    {
+      "name": "2026年MathorCup大数据挑战赛-赛道A初赛.pdf",
+      "comment_bytes": 0,
+      "local_candidates": 1,
+      "matches_local": true
+    }
+  ]
+}

@@ -1,0 +1,614 @@
+{
+  "snapshot_date": "2026-10-26",
+  "source": "D:/mathor/analysis",
+  "file_count": 121,
+  "total_bytes": 60338504.0,
+  "status": "Historical implementations and results before v3.1 implementation",
+  "files": [
+    {
+      "path": "analysis/A_feasibility/补充建议核查_2026-10-25.md",
+      "bytes": 3377,
+      "sha256": "e86a8275144ce311faecd0c116cf04c2b3cb6f52a256654e2882b23c4579262b"
+    },
+    {
+      "path": "analysis/A_feasibility/A题单人最小交付与倒排计划.md",
+      "bytes": 13781,
+      "sha256": "d5083de2c28586b2787a49b8e5d27be0a5bc5bbcc140c081376c06519cafa3dd"
+    },
+    {
+      "path": "analysis/A_feasibility/A题三问分析与实施路线.md",
+      "bytes": 23026,
+      "sha256": "abcdf5544616c8c489cec43cdb3a401e2bf7992eec9cbad80822a02e6afd68e4"
+    },
+    {
+      "path": "analysis/A_feasibility/audit_and_pilot.py",
+      "bytes": 6892,
+      "sha256": "4f761c815c23f2d5c1c866863daf9f8939d688d566cbd7866ace120661b64820"
+    },
+    {
+      "path": "analysis/A_feasibility/audit_summary.json",
+      "bytes": 7256,
+      "sha256": "c9de1d6ce76e0836d13d10e88294c173719c4f81d540810946f6010ccba5a86a"
+    },
+    {
+      "path": "analysis/A_feasibility/day1_minimum.py",
+      "bytes": 7094,
+      "sha256": "b4e18fd7e32667f9209f332792667f652f3f17f5a07b0ecc1774756fb51da01f"
+    },
+    {
+      "path": "analysis/A_feasibility/day1/baseline_metrics.csv",
+      "bytes": 18699,
+      "sha256": "3f1f02745ab249837a9b7d9e1bc6e51d438ba44616e159f8d7e9cbd9b4889256"
+    },
+    {
+      "path": "analysis/A_feasibility/day1/chemical_dictionary.json",
+      "bytes": 70706,
+      "sha256": "6056a000f6967b09a583e657d6dee849b259d65c2af15728ca09cfebd8765245"
+    },
+    {
+      "path": "analysis/A_feasibility/day1/ExtraTrees_leaf3_draft_relative_scores.csv",
+      "bytes": 26709,
+      "sha256": "66bc406a66a452ead507b8fa9fe5013dfe41181c689854b39ffa5bd1cc1f0c29"
+    },
+    {
+      "path": "analysis/A_feasibility/day1/ExtraTrees_leaf3_draft_template_display_scores.csv",
+      "bytes": 26709,
+      "sha256": "5af9e2732fdf4b4c4dc667763d50f0c1bc4cea6a14535a9ee2f549f0d8314176"
+    },
+    {
+      "path": "analysis/A_feasibility/day1/ExtraTrees_leaf3_oof_standardized.csv",
+      "bytes": 256416,
+      "sha256": "770ecd3bb5272e39087fd9b917ef850d02f7f90bcb8c66b2116e84e91a5061a9"
+    },
+    {
+      "path": "analysis/A_feasibility/day1/fold_score_anchors.csv",
+      "bytes": 18003,
+      "sha256": "a02afec9d55528811ab47a3244e93a37e90dd067c7b322d7950b00a4d6e17117"
+    },
+    {
+      "path": "analysis/A_feasibility/day1/joined_analysis_data.csv",
+      "bytes": 856805,
+      "sha256": "67fc83c9f1a319121388024052febcf079d2a76dee6843bf6aab01af2f52e122"
+    },
+    {
+      "path": "analysis/A_feasibility/day1/PLS_quantile8_draft_relative_scores.csv",
+      "bytes": 26709,
+      "sha256": "1f8d70e6ecdcad833d0ab3b58e69dfafed4d2b28e84b240eec6402bcf321ce1a"
+    },
+    {
+      "path": "analysis/A_feasibility/day1/PLS_quantile8_draft_template_display_scores.csv",
+      "bytes": 26709,
+      "sha256": "53ee79e405e68fd05529153ec7c4f709e797e67a2f7b5a05e5921fd314856ca6"
+    },
+    {
+      "path": "analysis/A_feasibility/day1/PLS_quantile8_oof_standardized.csv",
+      "bytes": 254510,
+      "sha256": "188ae8c976bfb226777b3812697348de4c14f884577d6ba4836e9e3317e41c7e"
+    },
+    {
+      "path": "analysis/A_feasibility/day1/sensory_metadata.csv",
+      "bytes": 4936,
+      "sha256": "79a25a82fb406f8350ecb253f5948336ce0f92acef8871906b9ab9b94751ba2e"
+    },
+    {
+      "path": "analysis/A_feasibility/day1/summary.json",
+      "bytes": 2585,
+      "sha256": "a1b617ff420a5a264d3ec4d7da396ecf2677c865c573aae90ee006207d5d8972"
+    },
+    {
+      "path": "analysis/A_feasibility/floor_ablation/实验结果.md",
+      "bytes": 2808,
+      "sha256": "3bba4e9cb8f1e7907e4339a890a684ec9f8e22eeca091cac222369b865ecf541"
+    },
+    {
+      "path": "analysis/A_feasibility/floor_ablation/实验协议.md",
+      "bytes": 2218,
+      "sha256": "22a0f380b4604126312d8f6a5fc2667bb7ae3f9099dd22013a57072abc938df9"
+    },
+    {
+      "path": "analysis/A_feasibility/floor_ablation/baseline_oof.npz",
+      "bytes": 480361,
+      "sha256": "d0f3887bdc534b220d4875cba5697b156ba39737cde9cbba3bf9dab92fc85311"
+    },
+    {
+      "path": "analysis/A_feasibility/floor_ablation/dimension_diagnostics.csv",
+      "bytes": 117416,
+      "sha256": "998a8e6d1d2439aa78488261167942a96623436950d4dec6ca2e2f9795e0fed4"
+    },
+    {
+      "path": "analysis/A_feasibility/floor_ablation/floor_indicators_oof.npz",
+      "bytes": 480274,
+      "sha256": "5e7f3164564281bacdba8b0f46742bed4a7629460364c221782e4294167f0d16"
+    },
+    {
+      "path": "analysis/A_feasibility/floor_ablation/paired_fold_metrics.csv",
+      "bytes": 3722,
+      "sha256": "4733d64c50c4a7a00e25fb9f37ba180cbc93a3b62ab58c72c5165c18fcf94371"
+    },
+    {
+      "path": "analysis/A_feasibility/floor_ablation/result.json",
+      "bytes": 1206,
+      "sha256": "4a6fffd9c1569b4d139b2e319752fdd56d3f0cf5c02759f2bd1a0e10807ae17c"
+    },
+    {
+      "path": "analysis/A_feasibility/floor_ablation/run_ablation.py",
+      "bytes": 5565,
+      "sha256": "8b078be7090343957c44264a5ace398a573b2008d02c89e215f30320227e8a32"
+    },
+    {
+      "path": "analysis/A_feasibility/floor_ablation/split_and_floor_log.json",
+      "bytes": 69948,
+      "sha256": "32458cfdf4dc08bb82a2c8d15fca0717bfd82fcb0b40bc92e3c950aed64a53da"
+    },
+    {
+      "path": "analysis/A_feasibility/Main Figure Generator.Rmd",
+      "bytes": 72845,
+      "sha256": "0d867883a127e3463d350a1d4c737b8f96cce5197e13895ff8445ea2c5186a2c"
+    },
+    {
+      "path": "analysis/A_feasibility/pilot_oof_metrics.csv",
+      "bytes": 20117,
+      "sha256": "ce200a75057b7eab32afa0f6fc58ca4b76286c246c889c02657b98a966fe0fa0"
+    },
+    {
+      "path": "analysis/A_feasibility/q1_metric_supplement.py",
+      "bytes": 9150,
+      "sha256": "4311d7aba8015a9d827d05ee565d544224a92d7f226f91182ae92d7d643e45c7"
+    },
+    {
+      "path": "analysis/A_feasibility/q1_metrics/逐维预测指标分布.png",
+      "bytes": 143788,
+      "sha256": "35e8cd097877646dca4433251dc2ddc6c89b070fce88068919a7c6362ac8216d"
+    },
+    {
+      "path": "analysis/A_feasibility/q1_metrics/逐维预测指标分布.svg",
+      "bytes": 37969,
+      "sha256": "7dda9e2e139273b8c731b63ba9e192aa703b34812879dd5d90a71f33b5979c1c"
+    },
+    {
+      "path": "analysis/A_feasibility/q1_metrics/aggregate_metrics.csv",
+      "bytes": 697,
+      "sha256": "f7858bb5f98a946e4eb56fe27c7aa3a0f92f8cc5334e5240db3efd798c4e8ee8"
+    },
+    {
+      "path": "analysis/A_feasibility/q1_metrics/ExtraTrees_dimension_summary.csv",
+      "bytes": 9696,
+      "sha256": "959deb95f18c218984c43ef4f849edd5eb7446e35621b6738843c1fc7713401f"
+    },
+    {
+      "path": "analysis/A_feasibility/q1_metrics/metric_run_log.txt",
+      "bytes": 8253,
+      "sha256": "f5d8b870872c279ef91813ea96d5103c149022bd6645bac312a8b6f495e2e4f0"
+    },
+    {
+      "path": "analysis/A_feasibility/q1_metrics/per_repeat_dimension_metrics.csv",
+      "bytes": 81651,
+      "sha256": "e26b34cce816767fc7b1bc663a3dd2b64eb83c992375499747f69ad56629e4af"
+    },
+    {
+      "path": "analysis/A_feasibility/q1_metrics/Q1基线与逐维评价补充.md",
+      "bytes": 7346,
+      "sha256": "b9e2b2263b1d949cf651430372dd660f417ac7d45ae0a904e65aca9377441d97"
+    },
+    {
+      "path": "analysis/A_feasibility/q1_metrics/same_split_baseline_metrics.csv",
+      "bytes": 2589,
+      "sha256": "4340e465379e38b654336d088a94ba2bd196d78e0debf835af74f78373db1efb"
+    },
+    {
+      "path": "analysis/A_feasibility/q1_metrics/summary.json",
+      "bytes": 7680,
+      "sha256": "8b79ead911925f1543bb716eaeee1d5adf0b4407f2d6164fb38f27ba4af219d5"
+    },
+    {
+      "path": "analysis/A_feasibility/SHAP analysis reference.ipynb",
+      "bytes": 472075,
+      "sha256": "880c6b7de9690879fe433abda9cc361b2a0806d9a02b66c0e5bc51f4c0a34272"
+    },
+    {
+      "path": "analysis/A_feasibility/Supplemental Files and Figure source files.xlsx",
+      "bytes": 5261473,
+      "sha256": "e0a10635c4fbc3c62dc7e06e553cce9fad98c768ea6af5c8adc8a836098d1474"
+    },
+    {
+      "path": "analysis/A_feasibility/verified_transforms.csv",
+      "bytes": 6113,
+      "sha256": "c08ca1892e47f0ac630b6822eff8999ccc48f7e964f07c08894bdfb7f1814787"
+    },
+    {
+      "path": "analysis/hidden_content_audit/A_page_1_extracted.txt",
+      "bytes": 1687,
+      "sha256": "4adb7817bf8095f7b2c328256bbd835be5c984acd8a7071700cc8e21ac992f67"
+    },
+    {
+      "path": "analysis/hidden_content_audit/A_page_1.png",
+      "bytes": 163450,
+      "sha256": "f57d1c824cc77e6f66ad3cc2a28b5e48710cd144b1af894c2a9b24f46db8e8b0"
+    },
+    {
+      "path": "analysis/hidden_content_audit/A_page_2_extracted.txt",
+      "bytes": 1540,
+      "sha256": "3b8b601dfd8d4fcbbf535d043770aaff32a72f2ebf0c6794eeb8ea548dd2cdc3"
+    },
+    {
+      "path": "analysis/hidden_content_audit/A_page_2.png",
+      "bytes": 158638,
+      "sha256": "826aed46d454a20e3c4c70af107dc41629cd07167db369e7b86dafa33dd4342c"
+    },
+    {
+      "path": "analysis/hidden_content_audit/A_page_3_extracted.txt",
+      "bytes": 1507,
+      "sha256": "44a53fe9e21d68fc4461c9e3793205b08108a0f417fb4bc3dc33f92ad4c59797"
+    },
+    {
+      "path": "analysis/hidden_content_audit/A_page_3.png",
+      "bytes": 144240,
+      "sha256": "beb168c7bf6f8a513747a9a03debd3c7584d31dbcac2c741d3227a087b21b9fb"
+    },
+    {
+      "path": "analysis/hidden_content_audit/A题隐藏内容检查报告.md",
+      "bytes": 5257,
+      "sha256": "53c9dbc70d952c949a167ab3f7ccfcda2d312f12c91203f0bc64984bf512f30b"
+    },
+    {
+      "path": "analysis/hidden_content_audit/audit_details.json",
+      "bytes": 18386,
+      "sha256": "8337e0ce9ade7a0184b993236ea0c2ad72651cc071c9b96661fc5b5431339954"
+    },
+    {
+      "path": "analysis/hidden_content_audit/audit_hidden_content.py",
+      "bytes": 8981,
+      "sha256": "fea22e8b441048b544548fa46a087c02c5758b09275e0b227079220d5ff91648"
+    },
+    {
+      "path": "analysis/hidden_content_audit/source_comparison.json",
+      "bytes": 2808,
+      "sha256": "2fb8137d7dd1b7e527cdc82889c646a4555b5aae65d3888298891e78f4804e63"
+    },
+    {
+      "path": "analysis/q2/方法与运行协议.md",
+      "bytes": 2745,
+      "sha256": "c0eb8951f3ab48e124731a983bfbb0695120e6f8f78b80c1481317a0c510910c"
+    },
+    {
+      "path": "analysis/q2/化合物网络与模块.png",
+      "bytes": 281813,
+      "sha256": "3521c6d1ae3a2a457ac9b45fa277262616c9723e12783b72a96fbb4a1b58848b"
+    },
+    {
+      "path": "analysis/q2/化合物网络与模块.svg",
+      "bytes": 164070,
+      "sha256": "5141abcb33c18e39b3781f9e38b869fb14806e7f88322b980cd5f83ed2d94930"
+    },
+    {
+      "path": "analysis/q2/可预测性与Top3稳定性.png",
+      "bytes": 165306,
+      "sha256": "4a8122d49fdddfb45084a4158a6d9a0f417ad59e8d0cef0a716cc6e6968b6429"
+    },
+    {
+      "path": "analysis/q2/可预测性与Top3稳定性.svg",
+      "bytes": 136095,
+      "sha256": "0a2db4c47e27f10351e2803d4e5fca8a12746c8701d551255a7b5ad12ec65159"
+    },
+    {
+      "path": "analysis/q2/all_factor_mean_permutation_importance.csv",
+      "bytes": 165617,
+      "sha256": "707c4692d414fafe3569e7026acb292f54d0f12582f93e56565c1c0cf1f9457e"
+    },
+    {
+      "path": "analysis/q2/bootstrap_checkpoint.npz",
+      "bytes": 8691938,
+      "sha256": "f553d0c78913e0d7bc08509d3e318f96e146a8b7c05b1fc932172432453f1ab8"
+    },
+    {
+      "path": "analysis/q2/bootstrap_samples.json",
+      "bytes": 411791,
+      "sha256": "9936f505b4809eebc2bbac1dd0d071e05f8be1646d12928dfbcc515dc9f5d58c"
+    },
+    {
+      "path": "analysis/q2/chemical_mapping_and_modules.csv",
+      "bytes": 31835,
+      "sha256": "55afb6d139bbfaa847d28303057e5f47fdcbbfb2148fc6bdcda855b66118facc"
+    },
+    {
+      "path": "analysis/q2/chemical_top3_frequencies.csv",
+      "bytes": 57880,
+      "sha256": "3e7a7fbb19913cff54f40a8a09782b02358bf481d6ebbead282f019a36b8434c"
+    },
+    {
+      "path": "analysis/q2/graph_summary.json",
+      "bytes": 1218,
+      "sha256": "a86f880048e165a440a429c46636ff91e96298b826722893dbf37d1ad032fd52"
+    },
+    {
+      "path": "analysis/q2/module_composition.csv",
+      "bytes": 7706,
+      "sha256": "25353e6f65c115d5392ff6fcadc34dbd0a714dae488dc2a86508ae421dd1fa88"
+    },
+    {
+      "path": "analysis/q2/module_top3_frequencies.csv",
+      "bytes": 30345,
+      "sha256": "10df6c81cc2a4ea55798b8781be7303e2d04588be3551326c287ebf4bde47b3c"
+    },
+    {
+      "path": "analysis/q2/network_edges.csv",
+      "bytes": 19903,
+      "sha256": "529ae792313d83769366dfdc6c0f6effa057c165da447b135af71730d6254c75"
+    },
+    {
+      "path": "analysis/q2/Q2可靠性补充.md",
+      "bytes": 5262,
+      "sha256": "8bc8f94cf3bc344755900808772b5b7ac559b6c50fad3c989ae78128fefbfa98"
+    },
+    {
+      "path": "analysis/q2/Q2统计主流程结果.md",
+      "bytes": 15162,
+      "sha256": "9bea831f014d8a563fa91fe91e93e422ac3069c9b784761b177d078bff94e8bb"
+    },
+    {
+      "path": "analysis/q2/relaxed_cross_method_jaccard.csv",
+      "bytes": 5989,
+      "sha256": "d03355b64e58360d76c9dfba56e4a2bda23fbe8a4d9fc4271227f60cfb81eee9"
+    },
+    {
+      "path": "analysis/q2/reliability_supplement_summary.json",
+      "bytes": 1393,
+      "sha256": "46382fb7b2cb0af603deec18b6bd6cdad02a8073f976f9d16caf26317a3e3f88"
+    },
+    {
+      "path": "analysis/q2/reliability_tiers.csv",
+      "bytes": 9676,
+      "sha256": "b2f125285621c5772bc057dfc161b853c5ac4711de138f89270e385d8d733e2c"
+    },
+    {
+      "path": "analysis/q2/render_results.py",
+      "bytes": 5185,
+      "sha256": "83724ae2b2ad0af1fc2c6fc5551d61dedba5c1a0c7e1455d6021052f7ed12d5c"
+    },
+    {
+      "path": "analysis/q2/run_q2.py",
+      "bytes": 12077,
+      "sha256": "8a1ff10360c616a115eb1cef6366aac06d9d6c094679cab846e2b623d87b12ce"
+    },
+    {
+      "path": "analysis/q2/summarize_results.py",
+      "bytes": 7264,
+      "sha256": "dd045a3eb549d03d32ccb0ccd4de44399323545c7a6078b4e289667301dd9f5a"
+    },
+    {
+      "path": "analysis/q2/summary.json",
+      "bytes": 2001,
+      "sha256": "c58857024048a88869f6eb619ef9e2e0cc58170e45cad77c92e2e27f4a6f4456"
+    },
+    {
+      "path": "analysis/q2/supplement_reliability.py",
+      "bytes": 9669,
+      "sha256": "f2a138446cb0764525c739b1ec8847134be5590ef6d14439855821b67191f4c0"
+    },
+    {
+      "path": "analysis/q2/supplementary_all_factor_top3.csv",
+      "bytes": 7014,
+      "sha256": "21dc0df02a71c36dd3faa23f911e343eed83e7aba6e34f388ed0bfc71836d2e3"
+    },
+    {
+      "path": "analysis/q2/target_stability_and_jaccard.csv",
+      "bytes": 10690,
+      "sha256": "bc39c5b041020e9325d1892e11335e1b9c598c7d8b24d8e206d928d60827427f"
+    },
+    {
+      "path": "analysis/q2/top3_chemical_candidates.csv",
+      "bytes": 34098,
+      "sha256": "da69a54e134dc693f57133963ed99217c19c8fbf4527af121ffb88d16e173879"
+    },
+    {
+      "path": "analysis/q2/top3_with_MC_frequency_intervals.csv",
+      "bytes": 38665,
+      "sha256": "59077381ceea4a3b9e82778ecc359dd4bf6f806b66f12b2956b36d3b3cc4a78e"
+    },
+    {
+      "path": "analysis/q2/Top3与模块稳定性.png",
+      "bytes": 1022348,
+      "sha256": "875d072381e29271f5b9fe4d8957d3b4cd553298ccc970b47d57886d655127cb"
+    },
+    {
+      "path": "analysis/q3/迁移风格接近与缺陷权衡.png",
+      "bytes": 216834,
+      "sha256": "9c14ff92f6d82931ab2a26d68e1732ab69cbea24da12d4b6560eea0dc0928543"
+    },
+    {
+      "path": "analysis/q3/迁移风格接近与缺陷权衡.svg",
+      "bytes": 133663,
+      "sha256": "d0e5b72c76fea26fbe7bb76e972255c52b84617473e28d33cbfe955533f9dc4b"
+    },
+    {
+      "path": "analysis/q3/生成感官画像与可靠性.png",
+      "bytes": 161930,
+      "sha256": "2791f1cf1da785e030f53eb0d4c5431a61f7b68d5462453ea7e724f042725cee"
+    },
+    {
+      "path": "analysis/q3/首版生成保真与下限偏差.png",
+      "bytes": 130461,
+      "sha256": "dc3d60bbcec8559f693b2407439fbd8397ea0cb457f13ee51a2b2996debed798"
+    },
+    {
+      "path": "analysis/q3/首版运行协议.md",
+      "bytes": 2693,
+      "sha256": "4bd015ba30426f55e561206d7bf49dbf781717e20e0fd40383689a1ba8e486f9"
+    },
+    {
+      "path": "analysis/q3/阈值与下限补充核查.md",
+      "bytes": 2561,
+      "sha256": "2c32f3ecc60b04642c459133a99f1c316287e901317f60637b78ae99ff5ea6a2"
+    },
+    {
+      "path": "analysis/q3/build_threshold_spec.py",
+      "bytes": 5100,
+      "sha256": "514e91c3dee1f3aee0f111315deeab29027466195aae095c79bc265f5c017ea6"
+    },
+    {
+      "path": "analysis/q3/defect_concentration_audit.csv",
+      "bytes": 80437,
+      "sha256": "d87a529bd192178cc9541c4731d552d3c3647a5481994b724967d4ebf8ed3d0b"
+    },
+    {
+      "path": "analysis/q3/defect_constraints.py",
+      "bytes": 3462,
+      "sha256": "20fb463ec15bc7654c24bb7cbc5894deca4e37a9a40a30d284dc9d02598d73f1"
+    },
+    {
+      "path": "analysis/q3/defect_thresholds.json",
+      "bytes": 3193,
+      "sha256": "92c8b6816b651bdbddac7f0eed018ec1327f66dc0a66f62ca2d283636102e631"
+    },
+    {
+      "path": "analysis/q3/environment_versions.json",
+      "bytes": 242,
+      "sha256": "8271f67eb69aebcd2892d00d6d724f6eb988cb9918c1a897fa56111ce25bd575"
+    },
+    {
+      "path": "analysis/q3/gaussian_baseline_summary.json",
+      "bytes": 2658,
+      "sha256": "83b1639d21db65478bafec4c7f9a154ba419911abe23047abe46d88a15ba08ca"
+    },
+    {
+      "path": "analysis/q3/generated_217_chemical_coordinates.csv",
+      "bytes": 3437043,
+      "sha256": "4a124b7834660d82ca2c7347a556f6608307e60a57dc5ce854c5e594d5074194"
+    },
+    {
+      "path": "analysis/q3/generated_231_coordinates.csv",
+      "bytes": 3674724,
+      "sha256": "9506a2cb58927bad91273a3be66d54e5c263939883afc3434fc72a56ab3c3d2f"
+    },
+    {
+      "path": "analysis/q3/generated_sensory_standardized.csv",
+      "bytes": 937075,
+      "sha256": "df6e1ef8c1eb8015ba2b15e7246f747e2fd626e509ab492675d399ff8317a0e5"
+    },
+    {
+      "path": "analysis/q3/generated_sensory_summary_with_reliability.csv",
+      "bytes": 20119,
+      "sha256": "95464cbfa5bcbd2d180558a64c81f36b02c108814f82e399b671e7336a8a3c25"
+    },
+    {
+      "path": "analysis/q3/generator_final_descriptive_metrics.csv",
+      "bytes": 704,
+      "sha256": "685690e650ee4e169d8869d87c7fdfa5c22602802092f734c7d56af0aaf73c5c"
+    },
+    {
+      "path": "analysis/q3/generator_holdout_correlation.csv",
+      "bytes": 354,
+      "sha256": "865da87ce2ad45334a20dab04fd94d6fa620c41cc24316bb0414433f19b74f12"
+    },
+    {
+      "path": "analysis/q3/generator_holdout_metrics.csv",
+      "bytes": 3293,
+      "sha256": "5bd51cd959266b03b98c6e297b193508880d7460455777ff0547d0fbd7268bb6"
+    },
+    {
+      "path": "analysis/q3/generator_holdout_splits.json",
+      "bytes": 8922,
+      "sha256": "530967628072cd73c842b5d8e03d21bd22acd5da4e62132da9c6a9fdd4cb7191"
+    },
+    {
+      "path": "analysis/q3/holdout_scaling_diagnostics.csv",
+      "bytes": 1225,
+      "sha256": "c2c470b385a4d25a01ba2c3d757b37783f42e03fdd43f4494290ca18fb1118d5"
+    },
+    {
+      "path": "analysis/q3/measured_acid_fields.csv",
+      "bytes": 162,
+      "sha256": "7c75e00645688fc6a92ddc296ed381fb472cda643cba3f24d0856bd2f7c518d9"
+    },
+    {
+      "path": "analysis/q3/migration_231_coordinates.csv",
+      "bytes": 277105,
+      "sha256": "8032f7a19193ec327017fa61ad7a7943e9f07699d9084c52fbd24f32a5ee8e47"
+    },
+    {
+      "path": "analysis/q3/migration_defect_checks.csv",
+      "bytes": 37970,
+      "sha256": "bcc62997f6d97db15aa1929bfc5791f6d7aca45168635d03ca9f7d066d49053b"
+    },
+    {
+      "path": "analysis/q3/migration_metrics_all_weights.csv",
+      "bytes": 18062,
+      "sha256": "91f3c6e1d7996694da2364d4c8d74835507ba192f91c2a7c513fdfcd2ea7ca04"
+    },
+    {
+      "path": "analysis/q3/migration_primary_alpha1.csv",
+      "bytes": 51690,
+      "sha256": "339e05fac6a245a17799adab9ab689f93659ef4676632487deec85cac08e45c9"
+    },
+    {
+      "path": "analysis/q3/migration_sensory_standardized.csv",
+      "bytes": 68722,
+      "sha256": "ad7c793f70d8919b86f6e82fe05aa0cda71be1f770e920628bf6b28f51ceca53"
+    },
+    {
+      "path": "analysis/q3/Q3缺陷阈值依据与约束口径.md",
+      "bytes": 8829,
+      "sha256": "dca75de665d799e24d3ffef48ce26eb787355211cf9148aa76cf68e509789f97"
+    },
+    {
+      "path": "analysis/q3/Q3首版生成与迁移结果.md",
+      "bytes": 7227,
+      "sha256": "989bb401943d2687c2633b25429fc31ca34adcf49914ddadd90892c7a5bf1b10"
+    },
+    {
+      "path": "analysis/q3/references/original_study_methods_text.txt",
+      "bytes": 77485,
+      "sha256": "39166bd2aabb5729255e0746da5b34e3338841e1afa42314368fc667320ee3b1"
+    },
+    {
+      "path": "analysis/q3/render_baseline_report.py",
+      "bytes": 16037,
+      "sha256": "6fd68855c5152d735963cd4db3067654b883f017fcfbc2214c467bfb240797d9"
+    },
+    {
+      "path": "analysis/q3/requirements-q3.txt",
+      "bytes": 139,
+      "sha256": "a96c5c96e09d5ab75e6917cd99d2c3d2bf1281c786fc8438096ba998432f6034"
+    },
+    {
+      "path": "analysis/q3/run_gaussian_baseline.py",
+      "bytes": 16844,
+      "sha256": "dc083b3ff181f5182bd7c5112686aa48efe68cd1a8d18cf253db6f3ec198fc85"
+    },
+    {
+      "path": "analysis/q3/saved_output_verification.json",
+      "bytes": 414,
+      "sha256": "b8549fbe7b59463f9f2ac0e7316005061aee7beac0820604e673bc61009cfca4"
+    },
+    {
+      "path": "analysis/q3/sensory_forward_model.joblib",
+      "bytes": 10397748,
+      "sha256": "7ae4f39bd4eb041bbbaf983cf7d3af4a50fdb1ea8525aac50e9a323206b7cbef"
+    },
+    {
+      "path": "analysis/q3/style_gaussians.joblib",
+      "bytes": 19701108,
+      "sha256": "234c197a75e2b2cf5cc26d09e98301fcdf41fa9003bd5d01ac297d3803137bcb"
+    },
+    {
+      "path": "analysis/q3/supplement_threshold_audit.py",
+      "bytes": 4717,
+      "sha256": "f8f98c6fbf47d64e60455cd75509bf38d793713d0f49cd844141bf904f923c82"
+    },
+    {
+      "path": "analysis/q3/threshold_and_floor_prevalence.csv",
+      "bytes": 718,
+      "sha256": "157bb0b9193e41ce50c8be754746a1abd6875d27caed48cdbcdf50af053c0fd1"
+    },
+    {
+      "path": "analysis/q3/threshold_audit_summary.json",
+      "bytes": 6913,
+      "sha256": "51ff571ae84d338549a4819269dd94c5fc6e46ba982607a758379b917e4f8f4a"
+    },
+    {
+      "path": "analysis/q3/verify_saved_outputs.py",
+      "bytes": 2790,
+      "sha256": "d43e58b926d86b3cd8bccad7527955e475ed1ecb78c3fc0877ff2c79ca899c4c"
+    }
+  ]
+}
