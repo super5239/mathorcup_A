@@ -1,0 +1,28 @@
+{
+ "python": "3.13.17",
+ "numpy": "2.5.3",
+ "pandas": "3.0.5",
+ "scipy": "1.18.1",
+ "scikit-learn": "1.6.1",
+ "joblib": "1.6.0",
+ "blas": [
+  {
+   "internal_api": "openblas",
+   "version": "0.3.34.106.0",
+   "threading_layer": "pthreads",
+   "num_threads": 4
+  },
+  {
+   "internal_api": "openblas",
+   "version": "0.3.31.dev",
+   "threading_layer": "pthreads",
+   "num_threads": 4
+  },
+  {
+   "internal_api": "openmp",
+   "version": null,
+   "threading_layer": null,
+   "num_threads": 4
+  }
+ ]
+}

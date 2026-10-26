@@ -30,9 +30,11 @@ stab[old.max_non_singleton_module_frequency >= 0.7] = '模块线索'
 stab[imp_pos & (min_freq >= 0.5)] = '单体稳定'
 
 # ---------- 高度相关备选：同模块且 |rho|>=0.8，最多3个 ----------
-def alternatives(field):
+# 非单体化学指标（理化/派生/混合，如 kcalperc）不作为化合物备选，单列为“派生相关指标”
+def correlated_peers(field, eligible):
     mod = mapping.loc[field, 'module']
-    peers = mapping.index[(mapping.module == mod) & (mapping.index != field)]
+    peers = mapping.index[(mapping.module == mod) & (mapping.index != field)
+                          & (mapping.eligible_primary_top3 == eligible)]
     if len(peers) == 0:
         return ''
     r = rho.loc[mapping.loc[field, 'matrix_name'], mapping.loc[peers, 'matrix_name']]
@@ -42,7 +44,8 @@ def alternatives(field):
     return '; '.join(f'{f}({"+" if v > 0 else "−"}{abs(v):.2f})' for f, v in r.items())
 
 
-top3['high_corr_alternatives'] = top3.field.map(alternatives)
+top3['high_corr_alternatives'] = top3.field.map(lambda f: correlated_peers(f, True))
+top3['derived_correlated_indicators'] = top3.field.map(lambda f: correlated_peers(f, False))
 top3['module_size'] = top3.module.map(mapping.module.value_counts())
 
 # ---------- 汇总表 ----------
@@ -76,7 +79,8 @@ t.to_csv(OUT / 'q2_v31_target_summary.csv', encoding='utf-8-sig')
 
 cols = ['target', 'rank', 'field', 'chemical_name', 'origin', 'module', 'module_size',
         'mean_OOB_permutation_MAE_increase', 'top3_frequency', 'frequency_MC_Wilson_lower', 'frequency_MC_Wilson_upper',
-        'module_top3_frequency', 'observed_spearman_descriptive', 'high_corr_alternatives']
+        'module_top3_frequency', 'observed_spearman_descriptive', 'high_corr_alternatives',
+        'derived_correlated_indicators']
 detail = top3[cols].merge(t[['support_tier', 'skill_flag', 'interpretation_stability', 'usage']],
                           left_on='target', right_index=True)
 detail.to_csv(OUT / 'q2_v31_top3_detail.csv', index=False, encoding='utf-8-sig')
@@ -88,9 +92,10 @@ summary = {
     'crosstab': cross.to_dict(),
     'usage_counts': t.usage.value_counts().to_dict(),
     'n_top3_with_alternatives': int((detail.high_corr_alternatives != '').sum()),
+    'n_top3_with_derived_indicators': int((detail.derived_correlated_indicators != '').sum()),
     'n_top3_total': len(detail),
     'stability_rule': '单体稳定: 3个候选平均置换重要性均>0且入选率均>=50%; 模块线索: 非单点模块最高命中率>=70%; 其余探索性',
-    'alternatives_rule': f'same module, |Spearman rho| >= {ALT_RHO} (2.csv), at most {ALT_MAX}',
+    'alternatives_rule': f'same module, |Spearman rho| >= {ALT_RHO} (2.csv), at most {ALT_MAX}; non-compound indicators listed separately as derived_correlated_indicators',
 }
 json.dump(summary, open(OUT / 'summary.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
 print(json.dumps(summary, ensure_ascii=False, indent=1))

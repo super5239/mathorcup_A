@@ -33,8 +33,9 @@
   "谨慎：未优于风格均值": 2,
   "可重点报告单体候选": 2
  },
- "n_top3_with_alternatives": 21,
+ "n_top3_with_alternatives": 12,
+ "n_top3_with_derived_indicators": 9,
  "n_top3_total": 150,
  "stability_rule": "单体稳定: 3个候选平均置换重要性均>0且入选率均>=50%; 模块线索: 非单点模块最高命中率>=70%; 其余探索性",
- "alternatives_rule": "same module, |Spearman rho| >= 0.8 (2.csv), at most 3"
+ "alternatives_rule": "same module, |Spearman rho| >= 0.8 (2.csv), at most 3; non-compound indicators listed separately as derived_correlated_indicators"
 }

@@ -1,0 +1,106 @@
+{
+ "loo_center_dist_real_Tripel": {
+  "mean": 0.8713073695045176,
+  "min": 0.6934955280464096,
+  "max": 1.4456159073239385,
+  "q95_radius": 1.182546656773876
+ },
+ "status_frozen": {
+  "baseline_optimizer|不可完整验收": 2,
+  "baseline_optimizer|达标": 9,
+  "latent_OT|不可完整验收": 2,
+  "latent_OT|未达到预设标准": 1,
+  "latent_OT|达标": 8
+ },
+ "status_envelope": {
+  "baseline_optimizer|不可完整验收": 2,
+  "baseline_optimizer|达标": 9,
+  "latent_OT|不可完整验收": 2,
+  "latent_OT|达标": 9
+ },
+ "selected_alpha_envelope": {
+  "baseline_optimizer|0.3": 7,
+  "baseline_optimizer|0.1": 1,
+  "baseline_optimizer|1.0": 1,
+  "latent_OT|0.25": 9
+ },
+ "paired_first_pass_change": {
+  "n": 8,
+  "OT_mean": 0.49051021739359646,
+  "baseline_mean": 0.6985901164375944,
+  "OT_smaller_count": 7
+ },
+ "dispersion": [
+  {
+   "group": "real_Tripel(28)",
+   "mean_dist_to_Tripel_center": 0.84,
+   "mean_pairwise_dist": 1.213
+  },
+  {
+   "group": "source_Pils/Lager(11)",
+   "mean_dist_to_Tripel_center": 1.036,
+   "mean_pairwise_dist": 0.982
+  },
+  {
+   "group": "latent_OT alpha=0.0",
+   "mean_dist_to_Tripel_center": 1.036,
+   "mean_pairwise_dist": 0.982
+  },
+  {
+   "group": "latent_OT alpha=0.25",
+   "mean_dist_to_Tripel_center": 0.873,
+   "mean_pairwise_dist": 0.923
+  },
+  {
+   "group": "latent_OT alpha=0.5",
+   "mean_dist_to_Tripel_center": 0.735,
+   "mean_pairwise_dist": 0.893
+  },
+  {
+   "group": "latent_OT alpha=0.75",
+   "mean_dist_to_Tripel_center": 0.65,
+   "mean_pairwise_dist": 0.894
+  },
+  {
+   "group": "latent_OT alpha=1.0",
+   "mean_dist_to_Tripel_center": 0.644,
+   "mean_pairwise_dist": 0.937
+  },
+  {
+   "group": "baseline_optimizer alpha=0.0",
+   "mean_dist_to_Tripel_center": 1.036,
+   "mean_pairwise_dist": 0.982
+  },
+  {
+   "group": "baseline_optimizer alpha=0.1",
+   "mean_dist_to_Tripel_center": 0.983,
+   "mean_pairwise_dist": 0.893
+  },
+  {
+   "group": "baseline_optimizer alpha=0.3",
+   "mean_dist_to_Tripel_center": 0.863,
+   "mean_pairwise_dist": 0.786
+  },
+  {
+   "group": "baseline_optimizer alpha=1.0",
+   "mean_dist_to_Tripel_center": 0.68,
+   "mean_pairwise_dist": 0.661
+  },
+  {
+   "group": "baseline_optimizer alpha=3.0",
+   "mean_dist_to_Tripel_center": 0.553,
+   "mean_pairwise_dist": 0.435
+  },
+  {
+   "group": "baseline_optimizer alpha=10.0",
+   "mean_dist_to_Tripel_center": 0.521,
+   "mean_pairwise_dist": 0.219
+  }
+ ],
+ "baseline_parameter_check": {
+  "scaler_mean_max_abs_diff": 0.0,
+  "scaler_scale_max_abs_diff": 0.0,
+  "style_location_max_abs_diff": 0.0,
+  "style_covariance_max_abs_diff": 7.105427357601002e-15
+ }
+}

@@ -1,0 +1,52 @@
+{
+ "refit_models": 15,
+ "refit_matches_saved_OOF_max_abs_diff": 6.661338147750939e-16,
+ "evaluable_samples_total": 1215,
+ "test_samples_total": 1250,
+ "top3_entries": 150,
+ "share_global_imp_positive": 0.9933333333333333,
+ "share_within_imp_positive": 0.8333333333333334,
+ "median_retention_ratio": 0.18738652885274976,
+ "share_within_top10_of_217": 0.72,
+ "share_within_top3_of_217": 0.54,
+ "targets_with_original_order_kept_within": 10,
+ "top_fields": {
+  "lactic_acid.mg.L.": {
+   "n_targets": 32,
+   "median_retention": 0.02,
+   "share_within_positive": 0.594,
+   "share_within_top10": 0.438
+  },
+  "ethyl_isovalerate": {
+   "n_targets": 27,
+   "median_retention": 0.244,
+   "share_within_positive": 0.926,
+   "share_within_top10": 0.852
+  },
+  "ethyl_octanoate": {
+   "n_targets": 22,
+   "median_retention": 0.236,
+   "share_within_positive": 0.864,
+   "share_within_top10": 0.818
+  },
+  "cis.dihydro.beta.terpineol": {
+   "n_targets": 16,
+   "median_retention": 0.258,
+   "share_within_positive": 0.938,
+   "share_within_top10": 0.875
+  },
+  "ethanol..v.v.": {
+   "n_targets": 9,
+   "median_retention": 0.131,
+   "share_within_positive": 0.667,
+   "share_within_top10": 0.556
+  },
+  "ethyl_acetate": {
+   "n_targets": 7,
+   "median_retention": 0.206,
+   "share_within_positive": 1.0,
+   "share_within_top10": 0.857
+  }
+ },
+ "permutation_repeats": 3
+}
