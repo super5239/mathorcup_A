@@ -1,0 +1,10 @@
+numpy
+pandas
+scipy
+scikit-learn
+openpyxl
+matplotlib
+seaborn
+networkx
+xgboost
+torch
