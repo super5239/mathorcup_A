@@ -5,7 +5,7 @@
 ```
 1.csv ~ 8.xlsx        附件原始数据（只读，不要修改）
 数据说明.txt / 题目PDF
-data/processed/       清洗、统一 log10 后的中间数据
+data/processed/       清洗后的中间数据（按逐列变换字典处理）
 src/common/           数据读取、预处理等公用代码
 src/q1_sensory_imputation/  问题1：缺失条件下的感官评分（0–6 分级）
 src/q2_compound_flavor/     问题2：化合物共表达图 + Top-3 关键化合物 + 稳定性
@@ -17,11 +17,13 @@ paper/                论文及论文用图
 
 ## 数据核查结论
 - 1.csv 共 250 个样本、22 种风格（题面写 226，以数据为准）。
-- 对照附件 8「Calibrated chemical dataset」验证：37 列为 **log10(原始浓度)**（负值 ⇔ 原始浓度 < 1），
+- 对照附件 8「Calibrated chemical dataset」核实了 70 个共享指标（仅覆盖部分列，其余列需逐列建字典）：37 列为 **log10(原始浓度)**（负值 ⇔ 原始浓度 < 1），
   其中包括 ethanol、pH、color、bitterness、CO2 等理化参数（与题面“保留原始量纲”不符）；
-  另有 33 列（如 2,3-butanedione、linalool、trans-2-nonenal、damascenone）为**未取对数的原始值**。
+  另有 33 列（如 2,3-butanedione、linalool、trans-2-nonenal、damascenone）**未取对数**，但不视为同质的原始浓度。
 - 3.xlsx 为 12 张空白评分卡 + summary，需由问题1模型填充 0–6 分。
-- 4.csv（50 个感官属性）与 7.csv 为标准化/中心化值。
+- 4.csv（50 个感官属性：26 项 numeric 强度 + 24 项 categorical 勾选）与 7.csv 为标准化/中心化值。
+
+详细口径见 [docs/解题思路.md](docs/解题思路.md)。
 
 ## 题目要点
 - **问题1**：以 1.csv 为输入，给出 Aroma / Flavour 等感官维度的 0–6 分级评分，并考察缺失鲁棒性。
