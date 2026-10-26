@@ -1,0 +1,40 @@
+{
+ "support_tier_counts": {
+  "A": 15,
+  "B": 21,
+  "C": 14
+ },
+ "interpretation_stability_counts": {
+  "探索性": 24,
+  "模块线索": 23,
+  "单体稳定": 3
+ },
+ "crosstab": {
+  "单体稳定": {
+   "A": 3,
+   "B": 0,
+   "C": 0
+  },
+  "探索性": {
+   "A": 4,
+   "B": 10,
+   "C": 10
+  },
+  "模块线索": {
+   "A": 8,
+   "B": 11,
+   "C": 4
+  }
+ },
+ "usage_counts": {
+  "报告模块线索": 18,
+  "仅列候选": 14,
+  "探索性（预测支持度C，不支撑主要化学结论）": 14,
+  "谨慎：未优于风格均值": 2,
+  "可重点报告单体候选": 2
+ },
+ "n_top3_with_alternatives": 21,
+ "n_top3_total": 150,
+ "stability_rule": "单体稳定: 3个候选平均置换重要性均>0且入选率均>=50%; 模块线索: 非单点模块最高命中率>=70%; 其余探索性",
+ "alternatives_rule": "same module, |Spearman rho| >= 0.8 (2.csv), at most 3"
+}

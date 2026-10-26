@@ -1,0 +1,10 @@
+﻿fold,method,pooled_within_style_correlation_RMSE
+0,latent_style,0.2774308311360352
+0,baseline_style,0.2847339339032998
+0,baseline_unconditional,0.2834344559708032
+1,latent_style,0.31927618646434935
+1,baseline_style,0.32427143761567234
+1,baseline_unconditional,0.31077530756593263
+2,latent_style,0.34964399756538456
+2,baseline_style,0.3613641968512233
+2,baseline_unconditional,0.3146976598419886

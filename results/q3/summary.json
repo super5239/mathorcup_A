@@ -1,0 +1,343 @@
+{
+ "baseline_reproduction_max_abs_diff": 0.006046202751248786,
+ "generator_holdout_mean": {
+  "baseline_style": {
+   "mean_coordinate_MAE_standardized": 0.9167,
+   "median_coordinate_MAE_standardized": 0.281,
+   "mean_coordinate_Wasserstein_standardized": 1.0781,
+   "synthetic_to_real_NN_ratio": 0.8294,
+   "floor_fraction_MAE_floor_columns": 0.2772,
+   "pooled_within_style_correlation_RMSE": 0.3235
+  },
+  "baseline_unconditional": {
+   "mean_coordinate_MAE_standardized": 1.059,
+   "median_coordinate_MAE_standardized": 0.4342,
+   "mean_coordinate_Wasserstein_standardized": 1.2347,
+   "synthetic_to_real_NN_ratio": 1.0784,
+   "floor_fraction_MAE_floor_columns": 0.305,
+   "pooled_within_style_correlation_RMSE": 0.303
+  },
+  "latent_style": {
+   "mean_coordinate_MAE_standardized": 0.8838,
+   "median_coordinate_MAE_standardized": 0.2568,
+   "mean_coordinate_Wasserstein_standardized": 0.9654,
+   "synthetic_to_real_NN_ratio": 0.8701,
+   "floor_fraction_MAE_floor_columns": 0.1684,
+   "pooled_within_style_correlation_RMSE": 0.3155
+  }
+ },
+ "generator_final": [
+  {
+   "style": "Tripel",
+   "n_real": 28,
+   "n_generated": 300,
+   "LedoitWolf_shrinkage": 0.4239,
+   "offdiag_share_of_correlation_Frobenius": 0.8653,
+   "exact_training_copy_count": 0,
+   "real_4VG_floor_fraction": 0.8214,
+   "synthetic_4VG_floor_fraction": 0.8067
+  },
+  {
+   "style": "Kriek",
+   "n_real": 10,
+   "n_generated": 300,
+   "LedoitWolf_shrinkage": 0.6605,
+   "offdiag_share_of_correlation_Frobenius": 0.7524,
+   "exact_training_copy_count": 0,
+   "real_4VG_floor_fraction": 1.0,
+   "synthetic_4VG_floor_fraction": 0.9133
+  },
+  {
+   "style": "Lambic",
+   "n_real": 11,
+   "n_generated": 300,
+   "LedoitWolf_shrinkage": 0.6815,
+   "offdiag_share_of_correlation_Frobenius": 0.7224,
+   "exact_training_copy_count": 0,
+   "real_4VG_floor_fraction": 0.9091,
+   "synthetic_4VG_floor_fraction": 0.9233
+  }
+ ],
+ "ot_covariance_check_rel_err": 1.999207005512401e-14,
+ "aging_J_plus": [
+  "X.E..beta.damascenone",
+  "X3.methylbutanal",
+  "X2.furanmethanol",
+  "isobutanol",
+  "X3.methylthio.propanol",
+  "acetaldehyde",
+  "benzaldehyde",
+  "X.E..2.nonenal",
+  "furfural",
+  "phenylacetaldehyde",
+  "ethyl_2.methyl_butyrate",
+  "ethyl_isovalerate",
+  "ethyl.lactate",
+  "ethyl.nicotinate",
+  "X2.3.butanedione",
+  "gamma.nonalactone",
+  "DMS"
+ ],
+ "aging_J_minus": [
+  "ethyl_acetate",
+  "ethyl_decanoate",
+  "ethyl_hexanoate",
+  "ethyl_octanoate",
+  "isopentyl_acetate",
+  "geraniol",
+  "linalool"
+ ],
+ "migration_by_alpha": {
+  "baseline_optimizer|0.0": {
+   "center_reduction": 0.0,
+   "nn_reduction": 0.0,
+   "source_change_RMS_latent": 0.0,
+   "C1_defects": 0.818,
+   "C2_center": 0.0,
+   "C3_nn": 0.0,
+   "C4_aging": 0.818,
+   "all_criteria": 0.0
+  },
+  "baseline_optimizer|0.1": {
+   "center_reduction": 0.05,
+   "nn_reduction": 0.063,
+   "source_change_RMS_latent": 0.351,
+   "C1_defects": 0.818,
+   "C2_center": 0.0,
+   "C3_nn": 0.091,
+   "C4_aging": 0.818,
+   "all_criteria": 0.0
+  },
+  "baseline_optimizer|0.3": {
+   "center_reduction": 0.164,
+   "nn_reduction": 0.161,
+   "source_change_RMS_latent": 0.52,
+   "C1_defects": 0.818,
+   "C2_center": 0.182,
+   "C3_nn": 0.818,
+   "C4_aging": 0.818,
+   "all_criteria": 0.182
+  },
+  "baseline_optimizer|1.0": {
+   "center_reduction": 0.339,
+   "nn_reduction": 0.276,
+   "source_change_RMS_latent": 0.763,
+   "C1_defects": 0.818,
+   "C2_center": 0.818,
+   "C3_nn": 0.909,
+   "C4_aging": 0.818,
+   "all_criteria": 0.818
+  },
+  "baseline_optimizer|3.0": {
+   "center_reduction": 0.465,
+   "nn_reduction": 0.296,
+   "source_change_RMS_latent": 0.955,
+   "C1_defects": 0.818,
+   "C2_center": 1.0,
+   "C3_nn": 1.0,
+   "C4_aging": 0.818,
+   "all_criteria": 0.818
+  },
+  "baseline_optimizer|10.0": {
+   "center_reduction": 0.497,
+   "nn_reduction": 0.287,
+   "source_change_RMS_latent": 1.092,
+   "C1_defects": 0.818,
+   "C2_center": 1.0,
+   "C3_nn": 1.0,
+   "C4_aging": 0.818,
+   "all_criteria": 0.818
+  },
+  "latent_OT|0.0": {
+   "center_reduction": -0.0,
+   "nn_reduction": 0.0,
+   "source_change_RMS_latent": 0.0,
+   "C1_defects": 0.818,
+   "C2_center": 0.0,
+   "C3_nn": 0.0,
+   "C4_aging": 0.818,
+   "all_criteria": 0.0
+  },
+  "latent_OT|0.25": {
+   "center_reduction": 0.157,
+   "nn_reduction": 0.144,
+   "source_change_RMS_latent": 0.24,
+   "C1_defects": 0.818,
+   "C2_center": 0.0,
+   "C3_nn": 0.909,
+   "C4_aging": 0.818,
+   "all_criteria": 0.0
+  },
+  "latent_OT|0.5": {
+   "center_reduction": 0.291,
+   "nn_reduction": 0.265,
+   "source_change_RMS_latent": 0.485,
+   "C1_defects": 0.818,
+   "C2_center": 0.909,
+   "C3_nn": 1.0,
+   "C4_aging": 0.818,
+   "all_criteria": 0.727
+  },
+  "latent_OT|0.75": {
+   "center_reduction": 0.373,
+   "nn_reduction": 0.334,
+   "source_change_RMS_latent": 0.721,
+   "C1_defects": 0.818,
+   "C2_center": 0.909,
+   "C3_nn": 1.0,
+   "C4_aging": 0.818,
+   "all_criteria": 0.727
+  },
+  "latent_OT|1.0": {
+   "center_reduction": 0.38,
+   "nn_reduction": 0.332,
+   "source_change_RMS_latent": 0.961,
+   "C1_defects": 0.818,
+   "C2_center": 0.909,
+   "C3_nn": 1.0,
+   "C4_aging": 0.818,
+   "all_criteria": 0.727
+  }
+ },
+ "migration_status_counts": {
+  "baseline_optimizer|不可完整验收": 2,
+  "baseline_optimizer|达标": 9,
+  "latent_OT|不可完整验收": 2,
+  "latent_OT|未达到预设标准": 1,
+  "latent_OT|达标": 8
+ },
+ "migration_selected": [
+  {
+   "method": "baseline_optimizer",
+   "beer": 28,
+   "status": "不可完整验收",
+   "selected_alpha": NaN
+  },
+  {
+   "method": "baseline_optimizer",
+   "beer": 81,
+   "status": "达标",
+   "selected_alpha": 0.3
+  },
+  {
+   "method": "baseline_optimizer",
+   "beer": 90,
+   "status": "达标",
+   "selected_alpha": 1.0
+  },
+  {
+   "method": "baseline_optimizer",
+   "beer": 96,
+   "status": "达标",
+   "selected_alpha": 0.3
+  },
+  {
+   "method": "baseline_optimizer",
+   "beer": 119,
+   "status": "不可完整验收",
+   "selected_alpha": NaN
+  },
+  {
+   "method": "baseline_optimizer",
+   "beer": 124,
+   "status": "达标",
+   "selected_alpha": 1.0
+  },
+  {
+   "method": "baseline_optimizer",
+   "beer": 139,
+   "status": "达标",
+   "selected_alpha": 1.0
+  },
+  {
+   "method": "baseline_optimizer",
+   "beer": 185,
+   "status": "达标",
+   "selected_alpha": 1.0
+  },
+  {
+   "method": "baseline_optimizer",
+   "beer": 209,
+   "status": "达标",
+   "selected_alpha": 1.0
+  },
+  {
+   "method": "baseline_optimizer",
+   "beer": 218,
+   "status": "达标",
+   "selected_alpha": 1.0
+  },
+  {
+   "method": "baseline_optimizer",
+   "beer": 230,
+   "status": "达标",
+   "selected_alpha": 1.0
+  },
+  {
+   "method": "latent_OT",
+   "beer": 28,
+   "status": "不可完整验收",
+   "selected_alpha": NaN
+  },
+  {
+   "method": "latent_OT",
+   "beer": 81,
+   "status": "达标",
+   "selected_alpha": 0.5
+  },
+  {
+   "method": "latent_OT",
+   "beer": 90,
+   "status": "达标",
+   "selected_alpha": 0.5
+  },
+  {
+   "method": "latent_OT",
+   "beer": 96,
+   "status": "达标",
+   "selected_alpha": 0.5
+  },
+  {
+   "method": "latent_OT",
+   "beer": 119,
+   "status": "不可完整验收",
+   "selected_alpha": NaN
+  },
+  {
+   "method": "latent_OT",
+   "beer": 124,
+   "status": "达标",
+   "selected_alpha": 0.5
+  },
+  {
+   "method": "latent_OT",
+   "beer": 139,
+   "status": "达标",
+   "selected_alpha": 0.5
+  },
+  {
+   "method": "latent_OT",
+   "beer": 185,
+   "status": "达标",
+   "selected_alpha": 0.5
+  },
+  {
+   "method": "latent_OT",
+   "beer": 209,
+   "status": "未达到预设标准",
+   "selected_alpha": NaN
+  },
+  {
+   "method": "latent_OT",
+   "beer": 218,
+   "status": "达标",
+   "selected_alpha": 0.5
+  },
+  {
+   "method": "latent_OT",
+   "beer": 230,
+   "status": "达标",
+   "selected_alpha": 0.5
+  }
+ ]
+}
