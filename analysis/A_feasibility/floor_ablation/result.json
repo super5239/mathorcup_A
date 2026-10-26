@@ -1,0 +1,29 @@
+{
+  "protocol_sha256": "22a0f380b4604126312d8f6a5fc2667bb7ae3f9099dd22013a57072abc938df9",
+  "n_splits": 15,
+  "baseline_mean_fold_MAE": 0.3428338955895588,
+  "floor_indicators_mean_fold_MAE": 0.3435789725008018,
+  "mean_paired_MAE_improvement": -0.0007450769112430995,
+  "relative_MAE_improvement": -0.0021732883499218135,
+  "corrected_approx_95pct_CI": [
+    -0.0026812510385462807,
+    0.0011910972160600816
+  ],
+  "corrected_standard_error": 0.0009027350543580835,
+  "mean_test_train_ratio": 0.5000120241444821,
+  "folds_improved": 4,
+  "keep_floor_indicators": false,
+  "decision": "retain_baseline",
+  "total_seconds": 23.448833800000003,
+  "indicator_count_range": [
+    22,
+    27
+  ],
+  "note": "Internal selection only; corrected CI approximate; outcomes standardized aggregates, not raw grades.",
+  "baseline_mean_repeat_pooled_R2": 0.2329730806234506,
+  "baseline_numeric_mean_fold_MAE": 0.34653502946950393,
+  "baseline_categorical_mean_fold_MAE": 0.3388243338862849,
+  "floor_indicators_mean_repeat_pooled_R2": 0.23056954088805098,
+  "floor_indicators_numeric_mean_fold_MAE": 0.3478082528211163,
+  "floor_indicators_categorical_mean_fold_MAE": 0.3389972521537947
+}

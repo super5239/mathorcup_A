@@ -1,0 +1,233 @@
+AGGREGATE
+        model       group      MAE        R2  Spearman
+   ExtraTrees         all 0.342816  0.232973  0.412407
+   ExtraTrees categorical 0.338794  0.159249  0.366187
+   ExtraTrees     numeric 0.346528  0.301026  0.455071
+   style_mean         all 0.358352  0.149788  0.354957
+   style_mean categorical 0.353214  0.082363  0.312559
+   style_mean     numeric 0.363095  0.212027  0.394093
+training_mean         all 0.417245 -0.008005       NaN
+training_mean categorical 0.383656 -0.008578       NaN
+training_mean     numeric 0.448251 -0.007476       NaN
+{
+  "protocol": "Existing 5 repeated 3-fold style-stratified splits; training-fold mean and style mean; no retraining. Per-repeat full-250 OOF metrics then averages.",
+  "MAE_relative_gain_vs_global_mean": 0.17838395467267726,
+  "MAE_relative_gain_vs_style_mean": 0.0433561716882463,
+  "R2_gain_vs_style_mean": 0.0831848537283979,
+  "groups": {
+    "all": {
+      "n_dimensions": 50,
+      "R2_distribution": {
+        "min": -0.004857866870550076,
+        "q25": 0.08697120180842724,
+        "median": 0.15789325167083113,
+        "q75": 0.3481297759215951,
+        "max": 0.7209613057718383
+      },
+      "Spearman_distribution": {
+        "min": 0.09592156387277398,
+        "q25": 0.274081167390963,
+        "median": 0.3806568777100068,
+        "q75": 0.5488375769295174,
+        "max": 0.8308200436731819
+      },
+      "positive_R2_dimensions": 49,
+      "dimensions_better_than_style_MAE": 43,
+      "dimensions_better_than_style_R2": 48
+    },
+    "numeric": {
+      "n_dimensions": 26,
+      "R2_distribution": {
+        "min": 0.00646198301343801,
+        "q25": 0.09936998524078497,
+        "median": 0.26137969709001674,
+        "q75": 0.4801431670161598,
+        "max": 0.7209613057718383
+      },
+      "Spearman_distribution": {
+        "min": 0.13108795308468077,
+        "q25": 0.27937640648959083,
+        "median": 0.49148132312625903,
+        "q75": 0.6167995239125905,
+        "max": 0.8308200436731819
+      },
+      "positive_R2_dimensions": 26,
+      "dimensions_better_than_style_MAE": 21,
+      "dimensions_better_than_style_R2": 24
+    },
+    "categorical": {
+      "n_dimensions": 24,
+      "R2_distribution": {
+        "min": -0.004857866870550076,
+        "q25": 0.06434508334079916,
+        "median": 0.12970255825808766,
+        "q75": 0.217929961971911,
+        "max": 0.3664821714946756
+      },
+      "Spearman_distribution": {
+        "min": 0.09592156387277398,
+        "q25": 0.2638500027117019,
+        "median": 0.3496555381028731,
+        "q75": 0.4907560185757611,
+        "max": 0.6329351376275987
+      },
+      "positive_R2_dimensions": 23,
+      "dimensions_better_than_style_MAE": 22,
+      "dimensions_better_than_style_R2": 24
+    }
+  },
+  "style_baseline_comparison_uncertainty": {
+    "absolute_MAE_improvement": {
+      "mean": 0.015537876970220051,
+      "approx_95pct_CI": [
+        0.006242899371545712,
+        0.02483285456889439
+      ],
+      "corrected_standard_error": 0.0043337538651463114
+    },
+    "mean_fold_relative_MAE_improvement": {
+      "mean": 0.04323763644248747,
+      "approx_95pct_CI": [
+        0.01748165921733655,
+        0.0689936136676384
+      ],
+      "corrected_standard_error": 0.012008642803618758
+    },
+    "note": "Supplementary approximate inference on existing 15 paired folds, not independent confirmation. Mean fold ratios differ slightly from pooled ratio."
+  },
+  "best5_by_R2": [
+    {
+      "index": "acidity",
+      "model": "ExtraTrees",
+      "type": "numeric",
+      "MAE": 0.29785393976612884,
+      "MSE": 0.2048175363137104,
+      "R2": 0.7209613057718383,
+      "Spearman": 0.5353918149964729,
+      "relative_MAE_gain_vs_style": 0.13417213070478637,
+      "R2_gain_vs_style": 0.16219012907452468,
+      "MSE_skill_vs_style": 0.36758733906026086,
+      "MSE_style_mean": 0.3238669131154965
+    },
+    {
+      "index": "alcohol",
+      "model": "ExtraTrees",
+      "type": "numeric",
+      "MAE": 0.3448237686501079,
+      "MSE": 0.18562311828672048,
+      "R2": 0.6758551265482104,
+      "Spearman": 0.8308200436731819,
+      "relative_MAE_gain_vs_style": -0.03290935404058869,
+      "R2_gain_vs_style": -0.01751155503127033,
+      "MSE_skill_vs_style": -0.05710910712988748,
+      "MSE_style_mean": 0.17559504220969016
+    },
+    {
+      "index": "acetic",
+      "model": "ExtraTrees",
+      "type": "numeric",
+      "MAE": 0.19636520045620012,
+      "MSE": 0.18839943604330747,
+      "R2": 0.6618083711847942,
+      "Spearman": 0.36779150128242294,
+      "relative_MAE_gain_vs_style": 0.11805470145148521,
+      "R2_gain_vs_style": 0.18687273186395037,
+      "MSE_skill_vs_style": 0.3559044297393097,
+      "MSE_style_mean": 0.29250230050030457
+    },
+    {
+      "index": "lactic",
+      "model": "ExtraTrees",
+      "type": "numeric",
+      "MAE": 0.21358466193078857,
+      "MSE": 0.18338891952124592,
+      "R2": 0.6593727997838082,
+      "Spearman": 0.4714833567942433,
+      "relative_MAE_gain_vs_style": 0.047635529792534534,
+      "R2_gain_vs_style": 0.14535826148752717,
+      "MSE_skill_vs_style": 0.29910002035440486,
+      "MSE_style_mean": 0.2616477740718086
+    },
+    {
+      "index": "bitternes",
+      "model": "ExtraTrees",
+      "type": "numeric",
+      "MAE": 0.3723362297582706,
+      "MSE": 0.23415441692339586,
+      "R2": 0.5599853013207742,
+      "Spearman": 0.7531187364963011,
+      "relative_MAE_gain_vs_style": 0.04071971696177363,
+      "R2_gain_vs_style": 0.06605927035269515,
+      "MSE_skill_vs_style": 0.13053283589958453,
+      "MSE_style_mean": 0.26930794697193783
+    }
+  ],
+  "worst5_by_R2": [
+    {
+      "index": "F_esters_flower",
+      "model": "ExtraTrees",
+      "type": "categorical",
+      "MAE": 0.29503665616009334,
+      "MSE": 0.17280183363311905,
+      "R2": -0.004857866870550076,
+      "Spearman": 0.09592156387277398,
+      "relative_MAE_gain_vs_style": 0.04858378611859336,
+      "R2_gain_vs_style": 0.09858943792803006,
+      "MSE_skill_vs_style": 0.08934675674977188,
+      "MSE_style_mean": 0.18975590864462202
+    },
+    {
+      "index": "stale_hops",
+      "model": "ExtraTrees",
+      "type": "numeric",
+      "MAE": 0.3055548290750956,
+      "MSE": 0.1929214750626068,
+      "R2": 0.00646198301343801,
+      "Spearman": 0.15887568173387218,
+      "relative_MAE_gain_vs_style": -0.02164806647983686,
+      "R2_gain_vs_style": 0.005577008240656722,
+      "MSE_skill_vs_style": 0.0055819481239294255,
+      "MSE_style_mean": 0.19400439754552007
+    },
+    {
+      "index": "barnyard",
+      "model": "ExtraTrees",
+      "type": "numeric",
+      "MAE": 0.30862740088659746,
+      "MSE": 0.19738547447784668,
+      "R2": 0.017719212200433508,
+      "Spearman": 0.19589911750904768,
+      "relative_MAE_gain_vs_style": -0.039428425405880554,
+      "R2_gain_vs_style": 0.0071503281123421955,
+      "MSE_skill_vs_style": 0.007226706333924082,
+      "MSE_style_mean": 0.1988223048879055
+    },
+    {
+      "index": "A_esters_flower",
+      "model": "ExtraTrees",
+      "type": "categorical",
+      "MAE": 0.31674417260755094,
+      "MSE": 0.17388319682317616,
+      "R2": 0.029670065536358047,
+      "Spearman": 0.1482422199232122,
+      "relative_MAE_gain_vs_style": 0.072510700271415,
+      "R2_gain_vs_style": 0.15338415310968367,
+      "MSE_skill_vs_style": 0.13649749060360972,
+      "MSE_style_mean": 0.20136964853144992
+    },
+    {
+      "index": "A_malt_grain",
+      "model": "ExtraTrees",
+      "type": "categorical",
+      "MAE": 0.33680101847365246,
+      "MSE": 0.19990678658401154,
+      "R2": 0.03992345650424136,
+      "Spearman": 0.20253071617736004,
+      "relative_MAE_gain_vs_style": -0.005164253280313631,
+      "R2_gain_vs_style": 0.014846997965832175,
+      "MSE_skill_vs_style": 0.015228884455465663,
+      "MSE_style_mean": 0.20299822306777554
+    }
+  ],
+  "note": "Mean-baseline Spearman omitted: each held-out fold has a constant prediction; pooling different fold constants gives artificial ranks. Group type means metadata type; targets are not raw binary labels."
+}

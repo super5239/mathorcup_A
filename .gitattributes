@@ -1,0 +1,2 @@
+# Preserve the imported experiment snapshot byte for byte, including line endings.
+analysis/** -text

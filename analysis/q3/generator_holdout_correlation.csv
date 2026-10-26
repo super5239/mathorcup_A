@@ -1,0 +1,7 @@
+﻿fold,method,pooled_within_style_correlation_RMSE,valid_coordinates,n_holdout
+0,style_conditional,0.28439919204957986,230,17
+0,unconditional,0.28356784423472986,230,17
+1,style_conditional,0.32400021608690727,230,16
+1,unconditional,0.3110175733572119,230,16
+2,style_conditional,0.3610613967810927,231,16
+2,unconditional,0.3148593032544584,231,16

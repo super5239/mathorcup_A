@@ -1,0 +1,216 @@
+{
+  "summary": {
+    "DMS": {
+      "valid_calibrated": 250,
+      "table1_missing": 0,
+      "calibrated_zero": 1,
+      "above_main_threshold_under_declared_units": 156,
+      "median_threshold_ratio": 1.2755372368421054
+    },
+    "Diacetyl": {
+      "valid_calibrated": 250,
+      "table1_missing": 9,
+      "calibrated_zero": 9,
+      "above_main_threshold_under_declared_units": 172,
+      "median_threshold_ratio": 2.8280466888888895
+    },
+    "4VG": {
+      "valid_calibrated": 250,
+      "table1_missing": 0,
+      "calibrated_zero": 168,
+      "above_main_threshold_under_declared_units": 18,
+      "median_threshold_ratio": 0.0
+    },
+    "t2n": {
+      "valid_calibrated": 249,
+      "table1_missing": 0,
+      "calibrated_zero": 0,
+      "above_main_threshold_under_declared_units": 248,
+      "median_threshold_ratio": 120.428315
+    }
+  },
+  "specific_discrepancies": [
+    {
+      "beer": 33,
+      "style": "Fruitbeer",
+      "defect": "Diacetyl",
+      "field": "X2.3.butanedione",
+      "table1_value": null,
+      "calibrated_raw_value": 0.0,
+      "calibrated_mg_L": 0.0,
+      "threshold_mg_L": 0.09,
+      "mapping_consistent_positive_pair": null,
+      "flags": "table1_value_missing_do_not_treat_as_zero | calibrated_zero_is_not_proof_of_true_zero"
+    },
+    {
+      "beer": 44,
+      "style": "Wheat",
+      "defect": "Diacetyl",
+      "field": "X2.3.butanedione",
+      "table1_value": null,
+      "calibrated_raw_value": 0.0,
+      "calibrated_mg_L": 0.0,
+      "threshold_mg_L": 0.09,
+      "mapping_consistent_positive_pair": null,
+      "flags": "table1_value_missing_do_not_treat_as_zero | calibrated_zero_is_not_proof_of_true_zero"
+    },
+    {
+      "beer": 223,
+      "style": "Low/No alcohol",
+      "defect": "Diacetyl",
+      "field": "X2.3.butanedione",
+      "table1_value": null,
+      "calibrated_raw_value": 0.0,
+      "calibrated_mg_L": 0.0,
+      "threshold_mg_L": 0.09,
+      "mapping_consistent_positive_pair": null,
+      "flags": "table1_value_missing_do_not_treat_as_zero | calibrated_zero_is_not_proof_of_true_zero"
+    },
+    {
+      "beer": 26,
+      "style": "West Flanders ale",
+      "defect": "Diacetyl",
+      "field": "X2.3.butanedione",
+      "table1_value": null,
+      "calibrated_raw_value": 0.0,
+      "calibrated_mg_L": 0.0,
+      "threshold_mg_L": 0.09,
+      "mapping_consistent_positive_pair": null,
+      "flags": "table1_value_missing_do_not_treat_as_zero | calibrated_zero_is_not_proof_of_true_zero"
+    },
+    {
+      "beer": 151,
+      "style": "Faro",
+      "defect": "Diacetyl",
+      "field": "X2.3.butanedione",
+      "table1_value": 0.139752287,
+      "calibrated_raw_value": 0.043173294,
+      "calibrated_mg_L": 0.043173294,
+      "threshold_mg_L": 0.09,
+      "mapping_consistent_positive_pair": false,
+      "flags": "table1_calibrated_discrepancy"
+    },
+    {
+      "beer": 156,
+      "style": "Kriek",
+      "defect": "Diacetyl",
+      "field": "X2.3.butanedione",
+      "table1_value": 0.434129935,
+      "calibrated_raw_value": 0.123114115,
+      "calibrated_mg_L": 0.123114115,
+      "threshold_mg_L": 0.09,
+      "mapping_consistent_positive_pair": false,
+      "flags": "table1_calibrated_discrepancy"
+    },
+    {
+      "beer": 176,
+      "style": "West Flanders ale",
+      "defect": "Diacetyl",
+      "field": "X2.3.butanedione",
+      "table1_value": null,
+      "calibrated_raw_value": 0.0,
+      "calibrated_mg_L": 0.0,
+      "threshold_mg_L": 0.09,
+      "mapping_consistent_positive_pair": null,
+      "flags": "table1_value_missing_do_not_treat_as_zero | calibrated_zero_is_not_proof_of_true_zero"
+    },
+    {
+      "beer": 129,
+      "style": "Brown",
+      "defect": "Diacetyl",
+      "field": "X2.3.butanedione",
+      "table1_value": null,
+      "calibrated_raw_value": 0.0,
+      "calibrated_mg_L": 0.0,
+      "threshold_mg_L": 0.09,
+      "mapping_consistent_positive_pair": null,
+      "flags": "table1_value_missing_do_not_treat_as_zero | calibrated_zero_is_not_proof_of_true_zero"
+    },
+    {
+      "beer": 119,
+      "style": "Pils/Lager",
+      "defect": "Diacetyl",
+      "field": "X2.3.butanedione",
+      "table1_value": null,
+      "calibrated_raw_value": 0.0,
+      "calibrated_mg_L": 0.0,
+      "threshold_mg_L": 0.09,
+      "mapping_consistent_positive_pair": null,
+      "flags": "table1_value_missing_do_not_treat_as_zero | calibrated_zero_is_not_proof_of_true_zero"
+    },
+    {
+      "beer": 28,
+      "style": "Pils/Lager",
+      "defect": "Diacetyl",
+      "field": "X2.3.butanedione",
+      "table1_value": null,
+      "calibrated_raw_value": 0.0,
+      "calibrated_mg_L": 0.0,
+      "threshold_mg_L": 0.09,
+      "mapping_consistent_positive_pair": null,
+      "flags": "table1_value_missing_do_not_treat_as_zero | calibrated_zero_is_not_proof_of_true_zero"
+    },
+    {
+      "beer": 34,
+      "style": "Tripel",
+      "defect": "Diacetyl",
+      "field": "X2.3.butanedione",
+      "table1_value": 0.289621935,
+      "calibrated_raw_value": 0.530465527,
+      "calibrated_mg_L": 0.530465527,
+      "threshold_mg_L": 0.09,
+      "mapping_consistent_positive_pair": false,
+      "flags": "table1_calibrated_discrepancy"
+    },
+    {
+      "beer": 199,
+      "style": "Tripel",
+      "defect": "Diacetyl",
+      "field": "X2.3.butanedione",
+      "table1_value": null,
+      "calibrated_raw_value": 0.0,
+      "calibrated_mg_L": 0.0,
+      "threshold_mg_L": 0.09,
+      "mapping_consistent_positive_pair": null,
+      "flags": "table1_value_missing_do_not_treat_as_zero | calibrated_zero_is_not_proof_of_true_zero"
+    },
+    {
+      "beer": 158,
+      "style": "Amber",
+      "defect": "t2n",
+      "field": "X.E..2.nonenal",
+      "table1_value": 0.009618264,
+      "calibrated_raw_value": 0.013740742,
+      "calibrated_mg_L": 0.013740742,
+      "threshold_mg_L": 0.0001,
+      "mapping_consistent_positive_pair": false,
+      "flags": "table1_calibrated_discrepancy"
+    },
+    {
+      "beer": 177,
+      "style": "Fruitbeer",
+      "defect": "t2n",
+      "field": "X.E..2.nonenal",
+      "table1_value": 0.006137194,
+      "calibrated_raw_value": null,
+      "calibrated_mg_L": null,
+      "threshold_mg_L": 0.0001,
+      "mapping_consistent_positive_pair": null,
+      "flags": "calibrated_value_missing"
+    },
+    {
+      "beer": 130,
+      "style": "Brut",
+      "defect": "t2n",
+      "field": "X.E..2.nonenal",
+      "table1_value": 0.005412781,
+      "calibrated_raw_value": 0.003290076,
+      "calibrated_mg_L": 0.003290076,
+      "threshold_mg_L": 0.0001,
+      "mapping_consistent_positive_pair": false,
+      "flags": "table1_calibrated_discrepancy"
+    }
+  ],
+  "isovaleric_acid_exact_measured_field_found": false,
+  "t2n_low_threshold_exceedance": 249
+}

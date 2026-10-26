@@ -1,0 +1,5 @@
+﻿defect,field,valid_calibrated,above_threshold,above_fraction,threshold_mg_L,table1_floor,floor_count,floor_fraction,floor_is_supported_by_zero_pairing,calibrated_zero_count,table1_missing,source_threshold_aggregate_rows,underlying_threshold_observation_count,threshold_medium
+DMS,DMS,250,156,0.624,0.019,0.0462112,1,0.004,True,1,0,1,not_provided,not_provided_in_attachment
+Diacetyl,X2.3.butanedione,250,172,0.688,0.09,5.9e-08,1,0.004,False,9,9,1,not_provided,not_provided_in_attachment
+4VG,X4VG,250,18,0.072,0.2,-2.013157381,168,0.672,True,168,0,1,not_provided,not_provided_in_attachment
+t2n,X.E..2.nonenal,249,248,0.9959839357429718,0.0001,6.14e-05,1,0.004,False,0,0,1,not_provided,not_provided_in_attachment

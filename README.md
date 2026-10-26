@@ -29,3 +29,9 @@ paper/                论文及论文用图
 - **问题1**：以 1.csv 为输入，给出 Aroma / Flavour 等感官维度的 0–6 分级评分，并考察缺失鲁棒性。
 - **问题2**：用 2.csv 构建化合物共表达图，给出每个感官维度 Top-3 关键化合物；bootstrap 入选频率 + 方法间 Jaccard 论证稳定性，并做化学合理性论证。
 - **问题3**：以 `tasting_category_fine` 为条件训练生成模型（Tripel、Kriek、Lambic 等），生成化合物谱与感官画像；Pils/Lager → Tripel 跨风格迁移，缺陷化合物（DMS / Diacetyl / 4VG / trans-2-nonenal / Stale hops）不恶化。
+
+## 已有实现与实验结果
+
+`analysis/` 已导入2026-10-26本地历史实现与结果，共121个原文件，包含重复OOF预测、Q1正式评价、Q2的100次bootstrap检查点，以及Q3储存尺度收缩高斯和约束优化基线。原文件按字节保留，SHA-256清单见 [快照清单](docs/analysis_snapshot_manifest.json)。
+
+当前执行方案以 [v3.1冻结文档](docs/解题思路.md) 为准；`analysis/` 中较早的计划、评分草案及旧分档是历史记录，不代表v3.1已经实现。接着做时先读 [现有实现接续说明](docs/现有实现接续说明.md)，复用已保存预测与模型，不重新开发或重跑已完成的主实验。

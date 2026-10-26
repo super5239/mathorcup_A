@@ -1,0 +1,544 @@
+{
+  "scope": "A-track original PDF/data plus supplied common rules and Word templates; no B-track or historical papers",
+  "pdf": [
+    {
+      "path": "D:\\mathor\\2026年第七届MathorCup数学应用挑战赛—大数据竞赛初赛赛题\\2026年MathorCup数学应用挑战赛—大数据挑战赛论文格式及提交规范.pdf",
+      "sha256": "75beb9a6acbe000bce28b9ded9acfd3cf385a05c32901932e50b3ea851597e41",
+      "pages": 2,
+      "metadata": {
+        "format": "PDF 1.7",
+        "title": "",
+        "author": "ppx",
+        "subject": "",
+        "keywords": "",
+        "creator": "WPS 文字",
+        "producer": "",
+        "creationDate": "D:20261022154239+08'00'",
+        "modDate": "D:20261022154239+08'00'",
+        "trapped": "",
+        "encryption": null
+      },
+      "embedded_files": [],
+      "ocgs": {},
+      "xml_metadata_scan": {
+        "instruction_keyword_hits": [],
+        "special_characters": {}
+      },
+      "page_checks": [
+        {
+          "page": 1,
+          "text_spans": 155,
+          "suspicious_text_spans": [],
+          "later_white_cover_candidates": [],
+          "annotations": [],
+          "links": [],
+          "text_scan": {
+            "instruction_keyword_hits": [],
+            "special_characters": {}
+          }
+        },
+        {
+          "page": 2,
+          "text_spans": 143,
+          "suspicious_text_spans": [],
+          "later_white_cover_candidates": [],
+          "annotations": [],
+          "links": [],
+          "text_scan": {
+            "instruction_keyword_hits": [],
+            "special_characters": {}
+          }
+        }
+      ],
+      "metadata_scan": {
+        "instruction_keyword_hits": [],
+        "special_characters": {}
+      },
+      "object_flags": [],
+      "bytes_after_final_eof_nonwhitespace": 0
+    },
+    {
+      "path": "D:\\mathor\\2026年第七届MathorCup数学应用挑战赛—大数据竞赛初赛赛题\\MathorCup数学应用挑战赛人工智能工具使用规定（试行）.pdf",
+      "sha256": "34be7fabb7a6df6b800bfb9cf1944c056246a89d1675efe1d860d1ddf8c71e83",
+      "pages": 2,
+      "metadata": {
+        "format": "PDF 1.7",
+        "title": "",
+        "author": "沐麗",
+        "subject": "",
+        "keywords": "",
+        "creator": "WPS 文字",
+        "producer": "",
+        "creationDate": "D:20261023151752+08'00'",
+        "modDate": "D:20261023151752+08'00'",
+        "trapped": "",
+        "encryption": null
+      },
+      "embedded_files": [],
+      "ocgs": {},
+      "xml_metadata_scan": {
+        "instruction_keyword_hits": [],
+        "special_characters": {}
+      },
+      "page_checks": [
+        {
+          "page": 1,
+          "text_spans": 105,
+          "suspicious_text_spans": [],
+          "later_white_cover_candidates": [],
+          "annotations": [],
+          "links": [],
+          "text_scan": {
+            "instruction_keyword_hits": [
+              {
+                "offset": 226,
+                "context": "、生成式AI、代码辅助工具、智能数学软件、数据分析与建模软件、\n翻译软件、自动补全技术等。\n二、使用原则\n1.参赛队可将AI 工具作为辅助手段，但必须确保竞赛作品的核心建模、算\n法设计、求解与分析由参赛队员独立完成。\n2.参赛队对使用AI 工具生成内容的正确性、可靠性及学术规范性负责，必\n须验证并修正其中可能存在的错误或不一致。\n3.使用AI 工具"
+              }
+            ],
+            "special_characters": {}
+          }
+        },
+        {
+          "page": 2,
+          "text_spans": 93,
+          "suspicious_text_spans": [],
+          "later_white_cover_candidates": [],
+          "annotations": [],
+          "links": [],
+          "text_scan": {
+            "instruction_keyword_hits": [
+              {
+                "offset": 11,
+                "context": "五、支撑材料说明\n使用AI 工具的参赛作品必须在支撑材料中提供\n“AI 工具使用详情说明”\n（PDF 格式，以此命名），内容应包括：\n1.所用AI 工具名称和版本；\n2.具体使用目的和应用环节（如建模辅助、数据处理、可视化、文献检索等）；\n3.关"
+              }
+            ],
+            "special_characters": {}
+          }
+        }
+      ],
+      "metadata_scan": {
+        "instruction_keyword_hits": [],
+        "special_characters": {}
+      },
+      "object_flags": [],
+      "bytes_after_final_eof_nonwhitespace": 0
+    },
+    {
+      "path": "D:\\mathor\\2026年第七届MathorCup数学应用挑战赛—大数据竞赛初赛赛题\\2026年MathorCup大数据挑战赛-赛道A初赛\\2026年MathorCup大数据挑战赛-赛道A初赛.pdf",
+      "sha256": "494025cf76c5d47af576927fcf6cd3a073d61db5842d56aaf0ad4da5f4660a78",
+      "pages": 3,
+      "metadata": {
+        "format": "PDF 1.7",
+        "title": "",
+        "author": "yhlmath",
+        "subject": "",
+        "keywords": "",
+        "creator": "WPS 文字",
+        "producer": "",
+        "creationDate": "D:20261022101644+08'00'",
+        "modDate": "D:20261022101644+08'00'",
+        "trapped": "",
+        "encryption": null
+      },
+      "embedded_files": [],
+      "ocgs": {},
+      "xml_metadata_scan": {
+        "instruction_keyword_hits": [],
+        "special_characters": {}
+      },
+      "page_checks": [
+        {
+          "page": 1,
+          "text_spans": 120,
+          "suspicious_text_spans": [],
+          "later_white_cover_candidates": [],
+          "annotations": [],
+          "links": [],
+          "text_scan": {
+            "instruction_keyword_hits": [],
+            "special_characters": {}
+          }
+        },
+        {
+          "page": 2,
+          "text_spans": 158,
+          "suspicious_text_spans": [],
+          "later_white_cover_candidates": [],
+          "annotations": [],
+          "links": [],
+          "text_scan": {
+            "instruction_keyword_hits": [],
+            "special_characters": {}
+          }
+        },
+        {
+          "page": 3,
+          "text_spans": 165,
+          "suspicious_text_spans": [],
+          "later_white_cover_candidates": [],
+          "annotations": [],
+          "links": [
+            {
+              "kind": 2,
+              "xref": 28,
+              "from": "Rect(90.0, 540.0, 489.75, 571.2000122070312)",
+              "uri": "https://www.kaggle.com/datasets/stephenpolozoff/top-beer-information",
+              "id": ""
+            }
+          ],
+          "text_scan": {
+            "instruction_keyword_hits": [],
+            "special_characters": {}
+          }
+        }
+      ],
+      "metadata_scan": {
+        "instruction_keyword_hits": [],
+        "special_characters": {}
+      },
+      "object_flags": [],
+      "bytes_after_final_eof_nonwhitespace": 0
+    }
+  ],
+  "xlsx": [
+    {
+      "path": "D:\\mathor\\2026年第七届MathorCup数学应用挑战赛—大数据竞赛初赛赛题\\2026年MathorCup大数据挑战赛-赛道A初赛\\附件\\3.xlsx",
+      "sha256": "fe4dcabd48431e6d677c095962ea9c447e10e509c4f3f8dd511a48c5541ab587",
+      "sheets": [
+        {
+          "name": "beer_1",
+          "state": "visible",
+          "hidden_rows": [],
+          "hidden_columns": [],
+          "comments": [],
+          "suspicious_style_cells": [],
+          "text_findings": [],
+          "formulas": 54,
+          "conditional_formatting_rules": 0
+        },
+        {
+          "name": "beer_2",
+          "state": "visible",
+          "hidden_rows": [],
+          "hidden_columns": [],
+          "comments": [],
+          "suspicious_style_cells": [],
+          "text_findings": [],
+          "formulas": 54,
+          "conditional_formatting_rules": 0
+        },
+        {
+          "name": "beer_3",
+          "state": "visible",
+          "hidden_rows": [],
+          "hidden_columns": [],
+          "comments": [],
+          "suspicious_style_cells": [],
+          "text_findings": [],
+          "formulas": 54,
+          "conditional_formatting_rules": 0
+        },
+        {
+          "name": "beer_4",
+          "state": "visible",
+          "hidden_rows": [],
+          "hidden_columns": [],
+          "comments": [],
+          "suspicious_style_cells": [],
+          "text_findings": [],
+          "formulas": 54,
+          "conditional_formatting_rules": 0
+        },
+        {
+          "name": "beer_5",
+          "state": "visible",
+          "hidden_rows": [],
+          "hidden_columns": [],
+          "comments": [],
+          "suspicious_style_cells": [],
+          "text_findings": [],
+          "formulas": 54,
+          "conditional_formatting_rules": 0
+        },
+        {
+          "name": "beer_6",
+          "state": "visible",
+          "hidden_rows": [],
+          "hidden_columns": [],
+          "comments": [],
+          "suspicious_style_cells": [],
+          "text_findings": [],
+          "formulas": 54,
+          "conditional_formatting_rules": 0
+        },
+        {
+          "name": "beer_7",
+          "state": "visible",
+          "hidden_rows": [],
+          "hidden_columns": [],
+          "comments": [],
+          "suspicious_style_cells": [],
+          "text_findings": [],
+          "formulas": 54,
+          "conditional_formatting_rules": 0
+        },
+        {
+          "name": "beer_8",
+          "state": "visible",
+          "hidden_rows": [],
+          "hidden_columns": [],
+          "comments": [],
+          "suspicious_style_cells": [],
+          "text_findings": [],
+          "formulas": 54,
+          "conditional_formatting_rules": 0
+        },
+        {
+          "name": "beer_9",
+          "state": "visible",
+          "hidden_rows": [],
+          "hidden_columns": [],
+          "comments": [],
+          "suspicious_style_cells": [],
+          "text_findings": [],
+          "formulas": 54,
+          "conditional_formatting_rules": 0
+        },
+        {
+          "name": "beer_10",
+          "state": "visible",
+          "hidden_rows": [],
+          "hidden_columns": [],
+          "comments": [],
+          "suspicious_style_cells": [],
+          "text_findings": [],
+          "formulas": 54,
+          "conditional_formatting_rules": 0
+        },
+        {
+          "name": "beer_11",
+          "state": "visible",
+          "hidden_rows": [],
+          "hidden_columns": [],
+          "comments": [],
+          "suspicious_style_cells": [],
+          "text_findings": [],
+          "formulas": 54,
+          "conditional_formatting_rules": 0
+        },
+        {
+          "name": "beer_12",
+          "state": "visible",
+          "hidden_rows": [],
+          "hidden_columns": [],
+          "comments": [],
+          "suspicious_style_cells": [],
+          "text_findings": [],
+          "formulas": 54,
+          "conditional_formatting_rules": 0
+        },
+        {
+          "name": "summary",
+          "state": "visible",
+          "hidden_rows": [],
+          "hidden_columns": [],
+          "comments": [],
+          "suspicious_style_cells": [],
+          "text_findings": [],
+          "formulas": 612,
+          "conditional_formatting_rules": 0
+        }
+      ],
+      "defined_names": [],
+      "special_package_parts": [],
+      "package_text_findings": []
+    },
+    {
+      "path": "D:\\mathor\\2026年第七届MathorCup数学应用挑战赛—大数据竞赛初赛赛题\\2026年MathorCup大数据挑战赛-赛道A初赛\\附件\\8.xlsx",
+      "sha256": "f2316766792111d98281bd35c8403682be8c8069d166a7a7d5887ffbb227700a",
+      "sheets": [
+        {
+          "name": "Sensory thresholds",
+          "state": "visible",
+          "hidden_rows": [],
+          "hidden_columns": [],
+          "comments": [],
+          "suspicious_style_cells": [],
+          "text_findings": [],
+          "formulas": 0,
+          "conditional_formatting_rules": 0
+        },
+        {
+          "name": "Sensory names",
+          "state": "visible",
+          "hidden_rows": [],
+          "hidden_columns": [],
+          "comments": [],
+          "suspicious_style_cells": [],
+          "text_findings": [],
+          "formulas": 0,
+          "conditional_formatting_rules": 0
+        },
+        {
+          "name": "GBM importance MDI",
+          "state": "visible",
+          "hidden_rows": [],
+          "hidden_columns": [],
+          "comments": [],
+          "suspicious_style_cells": [],
+          "text_findings": [],
+          "formulas": 0,
+          "conditional_formatting_rules": 0
+        },
+        {
+          "name": "GBM SHAP Values",
+          "state": "visible",
+          "hidden_rows": [],
+          "hidden_columns": [],
+          "comments": [],
+          "suspicious_style_cells": [],
+          "text_findings": [],
+          "formulas": 0,
+          "conditional_formatting_rules": 0
+        },
+        {
+          "name": "Calibrated chemical dataset",
+          "state": "visible",
+          "hidden_rows": [],
+          "hidden_columns": [],
+          "comments": [],
+          "suspicious_style_cells": [],
+          "text_findings": [],
+          "formulas": 0,
+          "conditional_formatting_rules": 0
+        },
+        {
+          "name": "Beer Prices",
+          "state": "visible",
+          "hidden_rows": [],
+          "hidden_columns": [],
+          "comments": [],
+          "suspicious_style_cells": [],
+          "text_findings": [],
+          "formulas": 0,
+          "conditional_formatting_rules": 0
+        },
+        {
+          "name": "Sheet2",
+          "state": "visible",
+          "hidden_rows": [],
+          "hidden_columns": [],
+          "comments": [],
+          "suspicious_style_cells": [],
+          "text_findings": [],
+          "formulas": 0,
+          "conditional_formatting_rules": 0
+        }
+      ],
+      "defined_names": [],
+      "special_package_parts": [],
+      "package_text_findings": []
+    }
+  ],
+  "csv": [
+    {
+      "path": "D:\\mathor\\2026年第七届MathorCup数学应用挑战赛—大数据竞赛初赛赛题\\2026年MathorCup大数据挑战赛-赛道A初赛\\附件\\1.csv",
+      "sha256": "419849227a02e0c792cd405e6865035b7f58af1a92efa362dbb68a7ca2882f69",
+      "rows": 250,
+      "columns": 234,
+      "row_length_variants": {
+        "234": 251
+      },
+      "instruction_keyword_hits": [],
+      "special_characters": {}
+    },
+    {
+      "path": "D:\\mathor\\2026年第七届MathorCup数学应用挑战赛—大数据竞赛初赛赛题\\2026年MathorCup大数据挑战赛-赛道A初赛\\附件\\2.csv",
+      "sha256": "415709ac10f2f730d31f249bd6ac108250bdfbfd62e0055f4d8db9b41ec9cc4c",
+      "rows": 231,
+      "columns": 232,
+      "row_length_variants": {
+        "232": 232
+      },
+      "instruction_keyword_hits": [],
+      "special_characters": {}
+    },
+    {
+      "path": "D:\\mathor\\2026年第七届MathorCup数学应用挑战赛—大数据竞赛初赛赛题\\2026年MathorCup大数据挑战赛-赛道A初赛\\附件\\4.csv",
+      "sha256": "43a7b38682ed81ce64d97ebc1874c09dffac023ade4877f34e3c83ef7d42dc1c",
+      "rows": 250,
+      "columns": 53,
+      "row_length_variants": {
+        "53": 251
+      },
+      "instruction_keyword_hits": [],
+      "special_characters": {}
+    },
+    {
+      "path": "D:\\mathor\\2026年第七届MathorCup数学应用挑战赛—大数据竞赛初赛赛题\\2026年MathorCup大数据挑战赛-赛道A初赛\\附件\\5.csv",
+      "sha256": "c512eed108de6f98e0c6ed66497ed2319745d30ca7f6f4acac4f175a4bdcde9a",
+      "rows": 50,
+      "columns": 51,
+      "row_length_variants": {
+        "51": 51
+      },
+      "instruction_keyword_hits": [],
+      "special_characters": {}
+    },
+    {
+      "path": "D:\\mathor\\2026年第七届MathorCup数学应用挑战赛—大数据竞赛初赛赛题\\2026年MathorCup大数据挑战赛-赛道A初赛\\附件\\6.csv",
+      "sha256": "a55004fb0390299a5c8089f0c37d3bfc006e7049963c84d7d9652affabe614ae",
+      "rows": 44,
+      "columns": 51,
+      "row_length_variants": {
+        "51": 45
+      },
+      "instruction_keyword_hits": [],
+      "special_characters": {}
+    },
+    {
+      "path": "D:\\mathor\\2026年第七届MathorCup数学应用挑战赛—大数据竞赛初赛赛题\\2026年MathorCup大数据挑战赛-赛道A初赛\\附件\\7.csv",
+      "sha256": "2083138df46640e20b46f7e76ec32cf9b380fd34e019269afd819edeb546ff5e",
+      "rows": 250,
+      "columns": 189,
+      "row_length_variants": {
+        "189": 251
+      },
+      "instruction_keyword_hits": [],
+      "special_characters": {}
+    }
+  ],
+  "docx": [
+    {
+      "path": "D:\\mathor\\2026年第七届MathorCup数学应用挑战赛—大数据竞赛初赛赛题\\2026年MathorCup数学应用挑战赛—大数据竞赛承诺书（手写或者电子签名后上传）.docx",
+      "sha256": "2560fe9393310855778948bdb08271db671a040bb4c573bc370b45f01704cb5e",
+      "hidden_or_white_runs": [],
+      "package_findings": [],
+      "special_parts": [
+        "docProps/custom.xml"
+      ]
+    },
+    {
+      "path": "D:\\mathor\\2026年第七届MathorCup数学应用挑战赛—大数据竞赛初赛赛题\\2026年MathorCup数学应用挑战赛—大数据竞赛论文模板.docx",
+      "sha256": "04fd7918d973338cdb50318132dd00df213d3b7b044bc25ff29a5bda57150bd6",
+      "hidden_or_white_runs": [],
+      "package_findings": [],
+      "special_parts": [
+        "customXml/",
+        "customXml/_rels/",
+        "customXml/_rels/item1.xml.rels",
+        "customXml/item1.xml",
+        "customXml/itemProps1.xml",
+        "docProps/custom.xml"
+      ]
+    }
+  ],
+  "other_text": [
+    {
+      "path": "D:\\mathor\\2026年第七届MathorCup数学应用挑战赛—大数据竞赛初赛赛题\\2026年MathorCup大数据挑战赛-赛道A初赛\\附件\\数据说明.txt",
+      "sha256": "40813e273e081ae0dc6d6fa76838c5cdbaa721335df3648b4b29d5f76b6378d7",
+      "instruction_keyword_hits": [],
+      "special_characters": {}
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "date": "2026-10-26",
+  "n_dimensions": 50,
+  "tier_counts": {
+    "C": 26,
+    "B": 22,
+    "A": 2
+  },
+  "descriptive_Spearman_across_dimensions": {
+    "skill_vs_selection": 0.11017987337385868,
+    "R2_vs_selection": 0.7027208924729409
+  },
+  "jaccard_medians": {
+    "3": {
+      "chemical_Jaccard": 0.0,
+      "module_Jaccard": 0.2
+    },
+    "5": {
+      "chemical_Jaccard": 0.1111111111111111,
+      "module_Jaccard": 0.225
+    },
+    "10": {
+      "chemical_Jaccard": 0.1111111111111111,
+      "module_Jaccard": 0.22252747252747251
+    }
+  },
+  "jaccard_means": {
+    "3": {
+      "chemical_Jaccard": 0.12200000000000001,
+      "module_Jaccard": 0.17066666666666666
+    },
+    "5": {
+      "chemical_Jaccard": 0.10777777777777776,
+      "module_Jaccard": 0.21444444444444444
+    },
+    "10": {
+      "chemical_Jaccard": 0.13334921012939588,
+      "module_Jaccard": 0.21258082113964466
+    }
+  },
+  "retrained_models": 0,
+  "style_confounding_sensitivity_completed": false,
+  "tier_rule": "A: skill>0, min chemical frequency>=.5, positive average importance for all 3; B: not A, skill>0, at least one non-singleton module frequency>=.7; C: remaining",
+  "qualification": "Post-analysis descriptive prioritization, not independent validation or causal evidence; Wilson intervals quantify 100-run conditional Monte Carlo precision only."
+}
