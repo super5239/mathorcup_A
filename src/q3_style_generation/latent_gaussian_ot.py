@@ -5,6 +5,7 @@
 G 由训练集全体风格共用的逐列经验 CDF 构建（中间秩处理并列，逆变换保留并列点质量）。
 生成器与 analysis/q3 首版基线使用相同的三折划分、相同的随机数，并在相同的标准化坐标中评价。
 规则见 docs/解题思路.md 第3节。
+AI assistance: Claude (Claude Opus 5.5), Anthropic, 2026-10-26. 用于代码实现，详见支撑材料《AI 工具使用详情说明》。
 """
 import json
 from pathlib import Path

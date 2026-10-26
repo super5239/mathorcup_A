@@ -10,3 +10,4 @@ __pycache__/
 
 # Optional local compatibility layout for historical analysis scripts.
 /2026年第七届MathorCup数学应用挑战赛—大数据竞赛初赛赛题/
+paper/build/

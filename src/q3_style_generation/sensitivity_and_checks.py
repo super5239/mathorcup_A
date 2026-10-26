@@ -4,6 +4,7 @@
 2. 迁移群体离散度：防止“全部收缩到中心”被当作风格保真。
 3. 两法共同达标样本上、各自首次达标点的配对改变量（描述性；两法 alpha 网格不同）。
 4. 首版基线拟合参数核对 + 运行环境记录。
+AI assistance: Claude (Claude Opus 5.5), Anthropic, 2026-10-26. 用于代码实现，详见支撑材料《AI 工具使用详情说明》。
 """
 import json
 import platform

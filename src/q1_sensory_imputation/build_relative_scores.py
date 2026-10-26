@@ -2,6 +2,7 @@
 
 只读取已有的5次重复OOF预测与逐维评价，不重新训练模型。
 规则见 docs/解题思路.md 第1.4–1.7节。
+AI assistance: Claude (Claude Opus 5.5), Anthropic, 2026-10-26. 用于代码实现，详见支撑材料《AI 工具使用详情说明》。
 """
 import json
 from pathlib import Path

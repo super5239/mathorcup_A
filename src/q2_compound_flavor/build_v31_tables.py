@@ -2,6 +2,7 @@
 
 只重组已有100次bootstrap结果（analysis/q2/），不重训模型、不重做bootstrap。
 规则见 docs/解题思路.md 第1.6节与问题2。
+AI assistance: Claude (Claude Opus 5.5), Anthropic, 2026-10-26. 用于代码实现，详见支撑材料《AI 工具使用详情说明》。
 """
 import json
 from pathlib import Path

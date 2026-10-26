@@ -3,6 +3,7 @@
 沿用 Q1 正式 OOF 的 15 个划分与 Extra Trees 固定配置重新拟合 15 次（不搜索超参数）；
 不改动原 OOF 预测与 100 次 bootstrap，不重算入选率，不替换原 Top-3 主名单。
 风格内置换只支持“在已记录风格分组内仍存在预测依赖”，不构成化学因果结论。
+AI assistance: Claude (Claude Opus 5.5), Anthropic, 2026-10-26. 用于代码实现，详见支撑材料《AI 工具使用详情说明》。
 """
 import json
 from pathlib import Path
